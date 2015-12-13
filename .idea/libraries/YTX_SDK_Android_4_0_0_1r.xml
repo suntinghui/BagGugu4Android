@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="YTX_SDK_Android_4.0.0.1r">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/YTX_SDK_Android_4.0.0.1r.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

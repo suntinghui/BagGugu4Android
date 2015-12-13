@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/blueme"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rootLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="1px"
+        android:background="@drawable/bg_white_gray"
+        android:orientation="vertical" >
+
+        <!-- 左边蓝色部分 -->
+
+        <RelativeLayout
+            android:id="@+id/leftLayout"
+            android:layout_width="120dip"
+            android:layout_height="wrap_content"
+            android:background="@color/blueme" >
+
+            <!-- 名称 -->
+
+            <TextView
+                android:id="@+id/titleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="20元"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <!-- 齿形图片 -->
+
+            <ImageView
+                android:id="@+id/chiImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/reward_ver_line" />
+
+            <!-- 状态图片 -->
+
+            <ImageView
+                android:id="@+id/completeStatusImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/chiImageView"
+                android:layout_alignParentLeft="true"
+                android:src="@drawable/complete_status_normal" />
+        </RelativeLayout>
+
+        <!-- 最右侧箭头图片 -->
+
+        <ImageView
+            android:id="@+id/rightArrowImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dip"
+            android:src="@drawable/reward_arrow_normal"
+            android:visibility="gone" />
+
+        <!-- 右边白色部分 -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignBottom="@id/leftLayout"
+            android:layout_marginRight="10dip"
+            android:layout_toLeftOf="@id/rightArrowImageView"
+            android:layout_toRightOf="@id/leftLayout"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+            <!-- 月加息  0.4％ 进行中 -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/detailTextView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="月加息"
+                    android:textColor="@color/blueme"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/topTipTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:text="0.4%\n进行中..."
+                    android:textColor="@color/redme"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <!-- 状态条 -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="5dip"
+                    android:layout_gravity="center"
+                    android:progressDrawable="@drawable/progressbar_bg" />
+            </LinearLayout>
+
+            <!-- 加好友每位0.2% -->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/descTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:text="30天内均享受福利"
+                    android:textColor="@color/blueme"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

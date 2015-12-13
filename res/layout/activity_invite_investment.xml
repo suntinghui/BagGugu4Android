@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_2"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        layout="@layout/layout_topbar" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="vertical" >
+
+            <!-- 标题 -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@null"
+                android:orientation="horizontal"
+                android:paddingBottom="10dip"
+                android:paddingLeft="30dip"
+                android:paddingRight="30dip"
+                android:paddingTop="10dip" >
+
+                <!-- 已注册  未注册 -->
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/investement_topbar_bg"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="1dip" >
+
+                    <TextView
+                        android:id="@+id/registedTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/investement_topbar_text_left_bg"
+                        android:gravity="center"
+                        android:paddingBottom="5dip"
+                        android:paddingTop="5dip"
+                        android:text="已投资"
+                        android:textColor="@drawable/text_white_blue_selector"
+                        android:textSize="16sp" />
+
+                    <View
+                        android:layout_width="1dip"
+                        android:layout_height="fill_parent"
+                        android:background="@color/blueme" />
+
+                    <TextView
+                        android:id="@+id/unRegisteTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/investement_topbar_text_right_bg"
+                        android:gravity="center"
+                        android:paddingBottom="5dip"
+                        android:paddingTop="5dip"
+                        android:text="未投资"
+                        android:textColor="@drawable/text_white_blue_selector"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- 好友注册成功 -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="15dip"
+                android:paddingRight="0dip"
+                android:paddingTop="5dip" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginRight="5dip"
+                    android:layout_weight="1"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:text="好友投资我获利，有钱一起赚！"
+                        android:textColor="@color/blueme"
+                        android:textSize="12sp" />
+
+                    <!-- 共计领取1000积分 -->
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dip"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/integralTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="总投资额0.00元，获利按0.2%计算。\n为我赚得0.00元"
+                            android:textColor="@color/gray"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/invite_unregiste_top" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@color/gray" />
+        </LinearLayout>
+
+        <!-- 列表 -->
+
+        <LinearLayout
+            android:id="@+id/registedLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/gray_2"
+            android:orientation="vertical" >
+
+            <include
+                android:id="@+id/emptyLayout"
+                layout="@layout/layout_empty_view"
+                android:visibility="gone" />
+
+            <ListView
+                android:id="@+id/registedListView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:cacheColorHint="@android:color/transparent"
+                android:dividerHeight="10dip"
+                android:divider="@color/gray_2"
+                android:duplicateParentState="true"
+                android:footerDividersEnabled="false"
+                android:headerDividersEnabled="false"
+                android:overScrollMode="always"
+                android:scrollbars="none"
+                android:scrollingCache="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/unRegistedLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/gray_2"
+            android:orientation="vertical" >
+
+            <include
+                android:id="@+id/unEmptyLayout"
+                layout="@layout/layout_empty_view"
+                android:visibility="gone" />
+
+            <ListView
+                android:id="@+id/unRegistedListView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:cacheColorHint="@android:color/transparent"
+                android:dividerHeight="10dip"
+                android:divider="@color/gray_2"
+                android:duplicateParentState="true"
+                android:footerDividersEnabled="false"
+                android:headerDividersEnabled="false"
+                android:overScrollMode="always"
+                android:scrollbars="none"
+                android:scrollingCache="false" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

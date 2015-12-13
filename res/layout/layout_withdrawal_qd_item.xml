@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/gray" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dip" >
+
+        <Button
+            android:id="@+id/actionBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/blue_button_selector"
+            android:paddingBottom="8dip"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip"
+            android:paddingTop="8dip"
+            android:text="赎回"
+            android:textColor="#ffffff"
+            android:textSize="13sp" />
+
+        <!-- 进度条内容 -->
+
+        <RelativeLayout
+            android:id="@+id/progressLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/actionBtn"
+            android:layout_alignTop="@id/actionBtn"
+            android:layout_marginRight="15dip"
+            android:layout_toLeftOf="@id/actionBtn" >
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:progress="51"
+                android:secondaryProgress="74"
+                android:progressDrawable="@drawable/withdrawal_progressbar" />
+
+            <!-- 时间 -->
+
+            <TextView
+                android:id="@+id/dateTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dip"
+                android:text="2015-01-01"
+                android:textColor="@color/white"
+                android:textSize="13sp" />
+
+            <!-- 周期 -->
+
+            <TextView
+                android:id="@+id/dayTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="0天"
+                android:textColor="@color/white"
+                android:textSize="13sp" />
+
+            <!-- 金额 -->
+
+            <TextView
+                android:id="@+id/amountTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dip"
+                android:text="0.00元"
+                android:textColor="@color/white"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <!-- 当前收益:0.00元 -->
+
+        <TextView
+            android:id="@+id/earningTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/progressLayout"
+            android:layout_marginTop="15sp"
+            android:text="当前收益:0.00元"
+            android:textColor="@color/gray_666666"
+            android:textSize="13sp" />
+
+        <!-- 赎回放弃:0.00元 -->
+
+        <TextView
+            android:id="@+id/deductionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/progressLayout"
+            android:layout_below="@id/progressLayout"
+            android:layout_marginTop="15sp"
+            android:text="赎回放弃:0.00元"
+            android:textColor="@color/orangeme"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:layout_alignParentBottom="true"
+        android:background="@color/gray" />
+
+</LinearLayout>

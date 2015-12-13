@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_transfer_pwd"
+    android:paddingBottom="20dip"
+    android:paddingTop="0dip" >
+
+    <ImageView
+        android:id="@+id/topImageView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/lucky_top" />
+
+    <ImageView
+        android:id="@+id/closeImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dip"
+        android:paddingRight="20dip"
+        android:src="@drawable/lucky_close" />
+
+    <!-- 恭喜您 -->
+
+    <TextView
+        android:id="@+id/gongxiTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/topImageView"
+        android:layout_marginLeft="30dip"
+        android:layout_marginTop="20dip"
+        android:text="恭喜您！"
+        android:textColor="@color/gray_666666"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/middleLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gongxiTextView"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="20dip" >
+
+        <!-- 红包 -->
+
+        <ImageView
+            android:id="@+id/redYaoImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gongxiTextView"
+            android:src="@drawable/lucky_redyao" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <!-- 分隔线 -->
+
+            <ImageView
+                android:id="@+id/lineImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/lucky_line" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/lineImageView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="15dip"
+                android:text="恭喜您中得"
+                android:textColor="@color/blueme"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/rewardValueTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lineImageView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dip"
+                android:text="5元"
+                android:textColor="@color/redme"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tipTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/middleLayout"
+        android:layout_marginLeft="30dip"
+        android:layout_marginTop="15dip"
+        android:text="您可以通过“微信分享”获得额外奖励！"
+        android:textColor="@color/gray_666666"
+        android:textSize="13sp"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/confirmBtn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tipTextView"
+        android:layout_marginBottom="20dip"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/blue_button_selector"
+        android:paddingBottom="10dip"
+        android:paddingTop="10dip"
+        android:text="知道了"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+</RelativeLayout>

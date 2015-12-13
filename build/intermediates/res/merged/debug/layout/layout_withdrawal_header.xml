@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/gray" />
+
+    <!-- 定投本金 赎回到 账户余额 -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="15sp" >
+
+        <TextView
+            android:id="@+id/typeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="定投本金"
+            android:textColor="@color/gray_666666"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/transferTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:drawablePadding="5dip"
+            android:drawableRight="@drawable/withdrawal_transfer"
+            android:text="赎回到"
+            android:textColor="@color/blueme"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/descTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="账户余额"
+            android:textColor="@color/gray_666666"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:alpha="0.6"
+        android:background="@color/gray" />
+
+    <TextView
+        android:id="@+id/tipTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="0dip"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:paddingTop="15dip"
+        android:text="安全保障最好的方式,是您可以随时赎回!"
+        android:textColor="@color/blueme"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/showTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:paddingBottom="5dip"
+        android:paddingRight="20dip"
+        android:paddingTop="5dip"
+        android:text="展开"
+        android:textColor="@color/gray_666666"
+        android:visibility="gone"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/markTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dip"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:text="因您的收益按日到账，和分期(每个自然月平均为30日)存在账期冲突，为保证债务债权再次顺利对接，我们会扣除定投期内最近30天的收益。"
+        android:textColor="@color/gray_1"
+        android:textSize="12sp"
+        android:visibility="gone"/>
+
+    <View
+        android:layout_marginTop="10dip"
+        android:layout_width="fill_parent"
+        android:layout_height="1px"
+        android:background="@color/gray" />
+
+</LinearLayout><!-- From: file:/workspace/androidstudio/BagGugu4Android/res/layout/layout_withdrawal_header.xml -->

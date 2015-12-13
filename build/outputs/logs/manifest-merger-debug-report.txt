@@ -1,0 +1,2005 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1:1-1287:12
+	package
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:2:5-33
+		INJECTED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml
+		INJECTED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml
+	android:versionName
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:4:5-32
+	android:versionCode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:3:5-30
+		INJECTED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml
+		INJECTED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml
+	xmlns:android
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1:11-69
+uses-sdk
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:appcompat-v7:23.0.1] /workspace/androidstudio/BagGugu4Android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] /workspace/androidstudio/BagGugu4Android/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:8:9-38
+		INJECTED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml
+		INJECTED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:7:9-35
+		INJECTED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml
+		INJECTED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:10:5-72
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:10:22-69
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:11:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:12:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:13:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:14:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:15:5-76
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:15:22-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:16:5-75
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:16:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:17:22-78
+uses-permission#android.permission.INTERNET
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:18:5-67
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:18:22-64
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:19:5-84
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:19:22-81
+uses-permission#android.permission.READ_LOGS
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:20:5-68
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:20:22-65
+uses-permission#android.permission.SEND_SMS
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:21:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:22:22-65
+uses-permission#android.permission.VIBRATE
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:23:5-66
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:23:22-63
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:24:5-73
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:24:22-70
+uses-permission#android.permission.GET_TASKS
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:25:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:26:5-81
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:26:22-78
+uses-permission#android.permission.CALL_PHONE
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:27:5-69
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:27:22-66
+uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:28:5-88
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:28:22-85
+uses-permission#com.android.launcher.permission.UNINSTALL_SHORTCUT
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:29:5-90
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:29:22-87
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:30:5-71
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:30:22-68
+application
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:32:5-1285:19
+MERGED from [com.android.support:appcompat-v7:23.0.1] /workspace/androidstudio/BagGugu4Android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /workspace/androidstudio/BagGugu4Android/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:37:9-41
+	android:hardwareAccelerated
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:35:9-44
+	android:allowBackup
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:34:9-35
+	android:icon
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:36:9-45
+	android:theme
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:38:9-62
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:33:9-48
+meta-data#LOGGING
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:39:9-41:36
+	android:value
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:41:13-33
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:40:13-35
+meta-data#ALPHA
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:42:9-44:37
+	android:value
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:44:13-34
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:43:13-33
+activity#com.gugu.activity.SplashActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:46:9-58:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:50:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:49:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:52:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:48:13-63
+	android:theme
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:51:13-47
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:47:13-60
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:53:13-57:29
+action#android.intent.action.MAIN
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:54:17-69
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:54:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:56:17-77
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:56:27-74
+activity#com.gugu.activity.ProductTourActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:60:9-65:76
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:63:13-49
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:65:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:62:13-63
+	android:theme
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:64:13-69
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:61:13-65
+activity#com.gugu.activity.RegisterAndLoginActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:67:9-78:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:71:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:70:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:72:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:69:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:68:13-70
+intent-filter#android.intent.action.RegisterAndLoginActivity+android.intent.category.DEFAULT
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:73:13-77:29
+action#android.intent.action.RegisterAndLoginActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:74:17-89
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:74:25-86
+category#android.intent.category.DEFAULT
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:76:17-76
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:76:27-73
+activity#com.gugu.activity.LoginActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:79:9-91:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:84:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:82:13-45
+	android:launchMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:83:13-48
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:85:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:81:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:80:13-59
+intent-filter#android.intent.action.LoginActivity+android.intent.category.DEFAULT
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:86:13-90:29
+action#android.intent.action.LoginActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:87:17-78
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:87:25-75
+activity#com.gugu.activity.ForgetPwdActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:92:9-103:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:96:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:95:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:97:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:94:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:93:13-63
+intent-filter#android.intent.action.ForgetPwdActivity+android.intent.category.DEFAULT
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:98:13-102:29
+action#android.intent.action.ForgetPwdActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:99:17-82
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:99:25-79
+activity#com.gugu.activity.RegisterActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:104:9-115:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:108:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:107:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:109:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:106:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:105:13-62
+intent-filter#android.intent.action.RegisterActivity+android.intent.category.DEFAULT
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:110:13-114:29
+action#android.intent.action.RegisterActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:111:17-81
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:111:25-78
+activity#com.gugu.activity.ShowWebViewActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:116:9-127:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:120:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:119:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:121:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:118:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:117:13-65
+intent-filter#android.intent.action.ShowWebViewActivity+android.intent.category.DEFAULT
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:122:13-126:29
+action#android.intent.action.ShowWebViewActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:123:17-84
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:123:25-81
+activity#com.gugu.activity.ShowShareWebViewActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:128:9-139:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:132:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:131:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:133:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:130:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:129:13-70
+intent-filter#android.intent.action.ShowShareWebViewActivity+android.intent.category.DEFAULT
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:134:13-138:29
+action#android.intent.action.ShowShareWebViewActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:135:17-89
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:135:25-86
+activity#com.gugu.activity.MainActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:140:9-153:20
+	android:clearTaskOnLaunch
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:142:13-45
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:146:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:144:13-45
+	android:launchMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:145:13-44
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:147:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:143:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:141:13-58
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.MainActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:148:13-152:29
+action#com.gugu.activity.MainActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:149:17-73
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:149:25-70
+activity#com.gugu.activity.HomeActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:154:9-165:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:158:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:157:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:159:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:156:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:155:13-58
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.HomeActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:160:13-164:29
+action#com.gugu.activity.HomeActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:161:17-73
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:161:25-70
+activity#com.gugu.activity.InvestmentActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:166:9-177:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:170:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:169:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:171:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:168:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:167:13-64
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.InvestmentActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:172:13-176:29
+action#com.gugu.activity.InvestmentActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:173:17-79
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:173:25-76
+activity#com.gugu.activity.EarningsActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:178:9-189:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:182:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:181:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:183:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:180:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:179:13-62
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.EarningsActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:184:13-188:29
+action#com.gugu.activity.EarningsActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:185:17-77
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:185:25-74
+activity#com.gugu.activity.BagActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:190:9-201:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:194:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:193:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:195:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:192:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:191:13-57
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.BagActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:196:13-200:29
+action#com.gugu.activity.BagActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:197:17-72
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:197:25-69
+activity#com.gugu.activity.CurrentActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:202:9-213:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:206:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:205:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:207:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:204:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:203:13-61
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.CurrentActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:208:13-212:29
+action#com.gugu.activity.CurrentActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:209:17-76
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:209:25-73
+activity#com.gugu.activity.CurrentActivityEx
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:214:9-225:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:218:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:217:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:219:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:216:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:215:13-63
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.CurrentActivityEx
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:220:13-224:29
+action#com.gugu.activity.CurrentActivityEx
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:221:17-78
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:221:25-75
+activity#com.gugu.activity.CurrentTransferInActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:226:9-237:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:230:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:229:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:231:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:228:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:227:13-71
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.CurrentTransferInActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:232:13-236:29
+action#com.gugu.activity.CurrentTransferInActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:233:17-86
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:233:25-83
+activity#com.gugu.activity.CurrentTransferOutActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:238:9-249:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:242:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:241:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:243:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:240:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:239:13-72
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.CurrentTransferOutActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:244:13-248:29
+action#com.gugu.activity.CurrentTransferOutActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:245:17-87
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:245:25-84
+activity#com.gugu.activity.CurrentInvestmentSourceActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:250:9-261:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:254:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:253:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:255:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:252:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:251:13-77
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.CurrentInvestmentSourceActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:256:13-260:29
+action#com.gugu.activity.CurrentInvestmentSourceActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:257:17-92
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:257:25-89
+activity#com.gugu.activity.PersonalCenterActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:262:9-273:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:266:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:265:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:267:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:264:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:263:13-68
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.PersonalCenterActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:268:13-272:29
+action#com.gugu.activity.PersonalCenterActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:269:17-83
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:269:25-80
+activity#com.gugu.activity.InvestmentStatisticsActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:274:9-285:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:278:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:277:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:279:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:276:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:275:13-74
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.InvestmentStatisticsActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:280:13-284:29
+action#com.gugu.activity.InvestmentStatisticsActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:281:17-89
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:281:25-86
+activity#com.gugu.activity.TotalAssetsActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:286:9-297:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:290:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:289:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:291:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:288:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:287:13-65
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.TotalAssetsActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:292:13-296:29
+action#com.gugu.activity.TotalAssetsActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:293:17-80
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:293:25-77
+activity#com.gugu.activity.VoteOfScheduledActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:298:9-309:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:302:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:301:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:303:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:300:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:299:13-69
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.VoteOfScheduledActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:304:13-308:29
+action#com.gugu.activity.VoteOfScheduledActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:305:17-84
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:305:25-81
+activity#com.gugu.activity.VoteOfTransferActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:310:9-321:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:314:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:313:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:315:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:312:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:311:13-68
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.VoteOfTransferActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:316:13-320:29
+action#com.gugu.activity.VoteOfTransferActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:317:17-83
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:317:25-80
+activity#com.gugu.activity.VoteOfRushActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:322:9-333:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:326:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:325:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:327:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:324:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:323:13-64
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.VoteOfRushActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:328:13-332:29
+action#com.gugu.activity.VoteOfRushActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:329:17-79
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:329:25-76
+activity#com.gugu.activity.ItemDetailActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:334:9-345:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:338:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:337:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:339:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:336:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:335:13-64
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.ItemDetailActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:340:13-344:29
+action#com.gugu.activity.ItemDetailActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:341:17-79
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:341:25-76
+activity#com.gugu.activity.InvestmentRecordsActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:346:9-357:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:350:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:349:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:351:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:348:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:347:13-71
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.InvestmentRecordsActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:352:13-356:29
+action#com.gugu.activity.InvestmentRecordsActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:353:17-86
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:353:25-83
+activity#com.gugu.activity.StagingUserActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:358:9-369:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:362:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:361:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:363:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:360:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:359:13-65
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.StagingUserActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:364:13-368:29
+action#com.gugu.activity.StagingUserActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:365:17-80
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:365:25-77
+activity#com.gugu.activity.StagingUserActivityEx
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:370:9-381:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:374:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:373:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:375:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:372:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:371:13-67
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.StagingUserActivityEx
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:376:13-380:29
+action#com.gugu.activity.StagingUserActivityEx
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:377:17-82
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:377:25-79
+activity#com.gugu.activity.ScheduledInvestmentActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:382:9-393:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:386:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:385:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:387:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:384:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:383:13-73
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.ScheduledInvestmentActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:388:13-392:29
+action#com.gugu.activity.ScheduledInvestmentActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:389:17-88
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:389:25-85
+activity#com.gugu.activity.TransferInvestmentActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:394:9-405:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:398:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:397:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:399:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:396:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:395:13-72
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.TransferInvestmentActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:400:13-404:29
+action#com.gugu.activity.TransferInvestmentActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:401:17-87
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:401:25-84
+activity#com.gugu.activity.RushInvestmentActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:406:9-417:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:410:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:409:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:411:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:408:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:407:13-68
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.RushInvestmentActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:412:13-416:29
+action#com.gugu.activity.RushInvestmentActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:413:17-83
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:413:25-80
+activity#com.gugu.activity.MyInvestmentActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:418:9-429:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:422:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:421:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:423:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:420:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:419:13-66
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.MyInvestmentActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:424:13-428:29
+action#com.gugu.activity.MyInvestmentActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:425:17-81
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:425:25-78
+activity#com.gugu.activity.MyInvestmentExActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:430:9-441:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:434:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:433:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:435:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:432:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:431:13-68
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.MyInvestmentExActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:436:13-440:29
+action#com.gugu.activity.MyInvestmentExActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:437:17-83
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:437:25-80
+activity#com.gugu.activity.MyInvestmentDetailActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:442:9-453:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:446:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:445:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:447:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:444:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:443:13-72
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.MyInvestmentDetailActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:448:13-452:29
+action#com.gugu.activity.MyInvestmentDetailActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:449:17-87
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:449:25-84
+activity#com.gugu.activity.MyRewardListActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:454:9-465:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:458:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:457:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:459:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:456:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:455:13-66
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.MyRewardListActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:460:13-464:29
+action#com.gugu.activity.MyRewardListActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:461:17-81
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:461:25-78
+activity#com.gugu.activity.MyRewardListExActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:466:9-477:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:470:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:469:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:471:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:468:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:467:13-68
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.MyRewardListExActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:472:13-476:29
+action#com.gugu.activity.MyRewardListExActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:473:17-83
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:473:25-80
+activity#com.gugu.activity.MyRewardRateExActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:478:9-489:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:482:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:481:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:483:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:480:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:479:13-68
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.MyRewardRateExActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:484:13-488:29
+action#com.gugu.activity.MyRewardRateExActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:485:17-83
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:485:25-80
+activity#com.gugu.activity.MyRewardRechargeActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:490:9-501:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:494:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:493:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:495:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:492:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:491:13-70
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.MyRewardRechargeActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:496:13-500:29
+action#com.gugu.activity.MyRewardRechargeActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:497:17-85
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:497:25-82
+activity#com.gugu.activity.ModifyLoginPWDActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:502:9-513:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:506:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:505:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:507:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:504:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:503:13-68
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.ModifyLoginPWDActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:508:13-512:29
+action#com.gugu.activity.ModifyLoginPWDActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:509:17-83
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:509:25-80
+activity#com.gugu.activity.SetTransferPWDActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:514:9-525:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:518:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:517:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:519:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:516:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:515:13-68
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.SetTransferPWDActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:520:13-524:29
+action#com.gugu.activity.SetTransferPWDActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:521:17-83
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:521:25-80
+activity#com.gugu.activity.ManageGestureLockActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:526:9-537:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:530:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:529:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:531:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:528:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:527:13-71
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.ManageGestureLockActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:532:13-536:29
+action#com.gugu.activity.ManageGestureLockActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:533:17-86
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:533:25-83
+activity#com.gugu.activity.gesture.GestureLockVerifyActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:538:9-549:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:542:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:541:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:543:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:540:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:539:13-79
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.GestureLockVerifyActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:544:13-548:29
+action#com.gugu.activity.GestureLockVerifyActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:545:17-86
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:545:25-83
+activity#com.gugu.activity.gesture.GestureLockSetupActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:550:9-561:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:554:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:553:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:555:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:552:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:551:13-78
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.GestureLockSetupActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:556:13-560:29
+action#com.gugu.activity.GestureLockSetupActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:557:17-85
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:557:25-82
+activity#com.gugu.activity.gesture.GestureLockModifyActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:562:9-573:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:566:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:565:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:567:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:564:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:563:13-79
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.GestureLockModifyActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:568:13-572:29
+action#com.gugu.activity.GestureLockModifyActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:569:17-86
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:569:25-83
+activity#com.gugu.activity.TransferHistoryActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:574:9-585:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:578:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:577:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:579:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:576:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:575:13-69
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.TransferHistoryActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:580:13-584:29
+action#com.gugu.activity.TransferHistoryActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:581:17-84
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:581:25-81
+activity#com.gugu.activity.WithdrawalListActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:586:9-597:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:590:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:589:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:591:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:588:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:587:13-68
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.WithdrawalListActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:592:13-596:29
+action#com.gugu.activity.WithdrawalListActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:593:17-83
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:593:25-80
+activity#com.gugu.activity.WithdrawalsActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:598:9-609:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:602:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:601:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:603:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:600:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:599:13-65
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.WithdrawalsActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:604:13-608:29
+action#com.gugu.activity.WithdrawalsActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:605:17-80
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:605:25-77
+activity#com.gugu.activity.WithdrawalDTActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:610:9-621:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:614:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:613:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:615:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:612:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:611:13-66
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.WithdrawalDTActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:616:13-620:29
+action#com.gugu.activity.WithdrawalDTActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:617:17-81
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:617:25-78
+activity#com.gugu.activity.WithdrawalQTActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:622:9-633:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:626:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:625:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:627:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:624:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:623:13-66
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.WithdrawalQTActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:628:13-632:29
+action#com.gugu.activity.WithdrawalQTActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:629:17-81
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:629:25-78
+activity#com.gugu.activity.WithdrawalHistoryActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:634:9-645:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:638:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:637:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:639:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:636:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:635:13-71
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.WithdrawalHistoryActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:640:13-644:29
+action#com.gugu.activity.WithdrawalHistoryActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:641:17-86
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:641:25-83
+activity#com.gugu.activity.WithdrawalRecordsActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:646:9-657:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:650:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:649:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:651:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:648:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:647:13-71
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.WithdrawalRecordsActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:652:13-656:29
+action#com.gugu.activity.WithdrawalRecordsActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:653:17-86
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:653:25-83
+activity#com.gugu.activity.SystemSettingActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:658:9-669:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:662:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:661:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:663:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:660:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:659:13-67
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.SystemSettingActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:664:13-668:29
+action#com.gugu.activity.SystemSettingActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:665:17-82
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:665:25-79
+activity#com.gugu.activity.VerifyRealnameActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:670:9-681:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:674:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:673:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:675:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:672:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:671:13-68
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.VerifyRealnameActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:676:13-680:29
+action#com.gugu.activity.VerifyRealnameActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:677:17-83
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:677:25-80
+activity#com.gugu.activity.VerifyEmergencyContactActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:682:9-693:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:686:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:685:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:687:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:684:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:683:13-76
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.VerifyEmergencyContactActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:688:13-692:29
+action#com.gugu.activity.VerifyEmergencyContactActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:689:17-91
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:689:25-88
+activity#com.gugu.activity.VerifyEmailActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:694:9-705:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:698:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:697:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:699:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:696:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:695:13-65
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.VerifyEmailActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:700:13-704:29
+action#com.gugu.activity.VerifyEmailActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:701:17-80
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:701:25-77
+activity#com.gugu.activity.VerifyWechatActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:706:9-717:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:710:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:709:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:711:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:708:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:707:13-66
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.VerifyWechatActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:712:13-716:29
+action#com.gugu.activity.VerifyWechatActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:713:17-81
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:713:25-78
+activity#com.gugu.activity.VerifyHasSetTransferPWDActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:718:9-729:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:722:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:721:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:723:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:720:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:719:13-77
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.VerifyHasSetTransferPWDActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:724:13-728:29
+action#com.gugu.activity.VerifyHasSetTransferPWDActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:725:17-92
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:725:25-89
+activity#com.gugu.activity.VerifyLoginPWDActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:730:9-741:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:734:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:733:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:735:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:732:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:731:13-68
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.VerifyLoginPWDActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:736:13-740:29
+action#com.gugu.activity.VerifyLoginPWDActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:737:17-83
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:737:25-80
+activity#com.gugu.activity.VerifyBankActivity1
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:742:9-753:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:746:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:745:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:747:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:744:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:743:13-65
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.VerifyBankActivity1
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:748:13-752:29
+action#com.gugu.activity.VerifyBankActivity1
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:749:17-80
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:749:25-77
+activity#com.gugu.activity.MyFriendsActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:754:9-765:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:758:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:757:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:759:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:756:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:755:13-63
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.MyFriendsActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:760:13-764:29
+action#com.gugu.activity.MyFriendsActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:761:17-78
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:761:25-75
+activity#com.gugu.activity.InviteContactActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:766:9-777:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:770:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:769:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:771:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:768:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:767:13-67
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.InviteContactActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:772:13-776:29
+action#com.gugu.activity.InviteContactActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:773:17-82
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:773:25-79
+activity#com.gugu.activity.InviteContactListActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:778:9-789:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:782:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:781:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:783:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:780:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:779:13-71
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.InviteContactListActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:784:13-788:29
+action#com.gugu.activity.InviteContactListActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:785:17-86
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:785:25-83
+activity#com.gugu.activity.AccessContactTipActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:790:9-802:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:795:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:793:13-45
+	android:launchMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:794:13-44
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:796:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:792:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:791:13-70
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.AccessContactTipActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:797:13-801:29
+action#com.gugu.activity.AccessContactTipActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:798:17-85
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:798:25-82
+activity#com.gugu.activity.InviteRegisterActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:803:9-814:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:807:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:806:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:808:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:805:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:804:13-68
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.InviteRegisterActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:809:13-813:29
+action#com.gugu.activity.InviteRegisterActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:810:17-83
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:810:25-80
+activity#com.gugu.activity.InviteInvestmentActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:815:9-826:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:819:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:818:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:820:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:817:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:816:13-70
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.InviteInvestmentActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:821:13-825:29
+action#com.gugu.activity.InviteInvestmentActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:822:17-85
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:822:25-82
+activity#com.gugu.activity.InviteTimelineActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:827:9-838:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:831:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:830:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:832:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:829:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:828:13-68
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.InviteTimelineActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:833:13-837:29
+action#com.gugu.activity.InviteTimelineActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:834:17-83
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:834:25-80
+activity#com.gugu.activity.InviteQTActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:839:9-850:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:843:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:842:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:844:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:841:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:840:13-62
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.InviteQTActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:845:13-849:29
+action#com.gugu.activity.InviteQTActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:846:17-77
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:846:25-74
+activity#com.gugu.activity.InviteFriendActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:851:9-862:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:855:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:854:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:856:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:853:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:852:13-66
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.InviteFriendActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:857:13-861:29
+action#com.gugu.activity.InviteFriendActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:858:17-81
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:858:25-78
+activity#com.gugu.activity.InviteShareWebActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:863:9-874:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:867:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:866:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:868:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:865:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:864:13-68
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.InviteShareWebActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:869:13-873:29
+action#com.gugu.activity.InviteShareWebActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:870:17-83
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:870:25-80
+activity#com.gugu.activity.SendBonusActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:875:9-886:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:879:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:878:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:880:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:877:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:876:13-63
+intent-filter#android.intent.category.DEFAULT+com.gugu.activity.SendBonusActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:881:13-885:29
+action#com.gugu.activity.SendBonusActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:882:17-78
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:882:25-75
+activity#com.gugu.activity.CropImageActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:887:9-898:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:891:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:890:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:892:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:889:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:888:13-63
+intent-filter#android.intent.action.CropImageActivity+android.intent.category.DEFAULT
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:893:13-897:29
+action#android.intent.action.CropImageActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:894:17-82
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:894:25-79
+activity#com.gugu.activity.FeedBackactivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:899:9-910:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:903:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:902:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:904:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:901:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:900:13-62
+intent-filter#android.intent.action.FeedBackactivity+android.intent.category.DEFAULT
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:905:13-909:29
+action#android.intent.action.FeedBackactivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:906:17-81
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:906:25-78
+activity#com.gugu.activity.MessageActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:911:9-922:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:915:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:914:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:916:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:913:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:912:13-61
+intent-filter#android.intent.action.MessageActivity+android.intent.category.DEFAULT
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:917:13-921:29
+action#android.intent.action.MessageActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:918:17-80
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:918:25-77
+activity#com.gugu.activity.MessageListActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:923:9-934:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:927:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:926:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:928:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:925:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:924:13-65
+intent-filter#android.intent.action.MessageListActivity+android.intent.category.DEFAULT
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:929:13-933:29
+action#android.intent.action.MessageListActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:930:17-84
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:930:25-81
+activity#com.gugu.activity.ShowNotificationActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:935:9-946:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:939:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:938:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:940:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:937:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:936:13-70
+intent-filter#android.intent.action.ShowNotificationActivity+android.intent.category.DEFAULT
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:941:13-945:29
+action#android.intent.action.ShowNotificationActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:942:17-89
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:942:25-86
+activity#com.gugu.activity.FirstPayActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:947:9-958:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:951:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:950:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:952:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:949:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:948:13-62
+intent-filter#android.intent.action.FirstPayActivity+android.intent.category.DEFAULT
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:953:13-957:29
+action#android.intent.action.FirstPayActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:954:17-81
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:954:25-78
+activity#com.gugu.activity.NotFirstPayActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:959:9-970:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:963:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:962:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:964:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:961:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:960:13-65
+intent-filter#android.intent.action.NotFirstPayActivity+android.intent.category.DEFAULT
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:965:13-969:29
+action#android.intent.action.NotFirstPayActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:966:17-84
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:966:25-81
+activity#com.gugu.activity.PaySuccessActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:971:9-982:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:975:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:974:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:976:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:973:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:972:13-64
+intent-filter#android.intent.action.PaySuccessActivity+android.intent.category.DEFAULT
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:977:13-981:29
+action#android.intent.action.PaySuccessActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:978:17-83
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:978:25-80
+activity#com.gugu.activity.ShakeshakeActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:983:9-994:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:987:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:986:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:988:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:985:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:984:13-64
+intent-filter#android.intent.action.LuckyDrawActivity+android.intent.category.DEFAULT
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:989:13-993:29
+action#android.intent.action.LuckyDrawActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:990:17-82
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:990:25-79
+activity#com.gugu.activity.TurntableLuckydrawActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:995:9-1006:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:999:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:998:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1000:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:997:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:996:13-72
+intent-filter#android.intent.action.TurntableLuckydrawActivity+android.intent.category.DEFAULT
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1001:13-1005:29
+action#android.intent.action.TurntableLuckydrawActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1002:17-91
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1002:25-88
+activity#com.gugu.activity.BindingBankActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1007:9-1018:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1011:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1010:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1012:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1009:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1008:13-65
+intent-filter#android.intent.action.BindingBankActivity+android.intent.category.DEFAULT
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1013:13-1017:29
+action#android.intent.action.BindingBankActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1014:17-84
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1014:25-81
+activity#com.gugu.activity.SetBranchActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1019:9-1030:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1023:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1022:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1024:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1021:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1020:13-63
+intent-filter#android.intent.action.SelectCityActivity+android.intent.category.DEFAULT
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1025:13-1029:29
+action#android.intent.action.SelectCityActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1026:17-83
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1026:25-80
+activity#com.gugu.activity.BindedBankActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1031:9-1042:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1035:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1034:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1036:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1033:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1032:13-64
+intent-filter#android.intent.action.BindedBankActivity+android.intent.category.DEFAULT
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1037:13-1041:29
+action#android.intent.action.BindedBankActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1038:17-83
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1038:25-80
+activity#com.gugu.activity.BindingSuccessActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1043:9-1054:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1047:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1046:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1048:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1045:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1044:13-68
+intent-filter#android.intent.action.BindingSuccessActivity+android.intent.category.DEFAULT
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1049:13-1053:29
+action#android.intent.action.BindingSuccessActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1050:17-87
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1050:25-84
+activity#com.gugu.activity.DiscoveryActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1055:9-1066:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1059:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1058:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1060:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1057:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1056:13-63
+intent-filter#android.intent.action.DiscoveryActivity+android.intent.category.DEFAULT
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1061:13-1065:29
+action#android.intent.action.DiscoveryActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1062:17-82
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1062:25-79
+activity#com.gugu.activity.PropertyActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1068:9-1079:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1072:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1071:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1073:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1070:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1069:13-62
+intent-filter#android.intent.action.PropertyActivity+android.intent.category.DEFAULT
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1074:13-1078:29
+action#android.intent.action.PropertyActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1075:17-81
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1075:25-78
+activity#com.gugu.activity.PropertyNoOpenActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1081:9-1092:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1085:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1084:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1086:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1083:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1082:13-68
+intent-filter#android.intent.action.PropertyNoOpenActivity+android.intent.category.DEFAULT
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1087:13-1091:29
+action#android.intent.action.PropertyNoOpenActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1088:17-87
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1088:25-84
+activity#com.gugu.activity.PropertyRechargeActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1094:9-1105:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1098:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1097:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1099:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1096:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1095:13-70
+intent-filter#android.intent.action.PropertyRechargeActivity+android.intent.category.DEFAULT
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1100:13-1104:29
+action#android.intent.action.PropertyRechargeActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1101:17-89
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1101:25-86
+activity#com.gugu.activity.WageActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1108:9-1119:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1112:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1111:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1113:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1110:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1109:13-58
+intent-filter#android.intent.action.WageActivity+android.intent.category.DEFAULT
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1114:13-1118:29
+action#android.intent.action.WageActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1115:17-77
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1115:25-74
+activity#com.gugu.activity.WageNoOpenActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1121:9-1131:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1125:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1124:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1126:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1123:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1122:13-64
+intent-filter#android.intent.action.WageNoOpenActivity+android.intent.category.DEFAULT
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1127:13-1130:29
+action#android.intent.action.WageNoOpenActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1128:17-83
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1128:25-80
+activity#com.gugu.activity.PropertyFrozenActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1133:9-1143:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1137:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1136:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1138:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1135:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1134:13-68
+intent-filter#android.intent.action.PropertyFrozenActivity+android.intent.category.DEFAULT
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1139:13-1142:29
+action#android.intent.action.PropertyFrozenActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1140:17-87
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1140:25-84
+service#com.speedtong.sdk.ECClientService
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1145:9-1147:40
+	android:exported
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1147:13-37
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1146:13-61
+activity#com.wufriends.gugu.wxapi.WXEntryActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1150:9-1154:75
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1153:13-49
+	android:exported
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1152:13-36
+	android:theme
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1154:13-72
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1151:13-50
+receiver#com.gugu.activity.NetChangeReceiver
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1156:9-1160:20
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1156:19-69
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1157:13-1159:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1158:17-79
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1158:25-76
+activity#com.umeng.socialize.view.ShareActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1167:9-1173:80
+	android:launchMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1170:13-44
+	android:noHistory
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1171:13-37
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1173:13-68
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1169:13-57
+	android:theme
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1172:13-50
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1168:13-66
+activity#com.tencent.tauth.AuthActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1176:9-1188:20
+	android:launchMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1178:13-44
+	android:noHistory
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1179:13-37
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1177:13-58
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1180:13-1187:29
+action#android.intent.action.VIEW
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1181:17-69
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1181:25-66
+category#android.intent.category.BROWSABLE
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1184:17-78
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1184:27-75
+data
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1186:17-53
+	android:scheme
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1186:23-50
+activity#com.tencent.connect.common.AssistActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1189:9-1192:84
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1191:13-49
+	android:theme
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1192:13-72
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1190:13-69
+activity#com.umeng.fb.ConversationActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1193:9-70
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1193:19-67
+service#com.gugu.activity.GuguPushIntentService
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1195:9-75
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1195:18-72
+service#com.gugu.activity.DownloadSplashImageService
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1197:9-80
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1197:18-77
+meta-data#UMENG_APPKEY
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1199:9-1201:66
+	android:value
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1201:13-53
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1200:13-40
+meta-data#UMENG_CHANNEL
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1202:9-1204:47
+	android:value
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1204:13-34
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1203:13-41
+meta-data#UMENG_MESSAGE_SECRET
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1205:9-1207:74
+	android:value
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1207:13-61
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1206:13-48
+receiver#com.umeng.message.NotificationProxyBroadcastReceiver
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1209:9-1211:49
+	android:exported
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1211:13-37
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1210:13-80
+receiver#com.umeng.message.SystemReceiver
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1212:9-1226:20
+	android:process
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1214:13-36
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1213:13-60
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1215:13-1217:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1216:17-79
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1216:25-76
+intent-filter#android.intent.action.PACKAGE_REMOVED
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1221:13-1225:29
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1222:17-80
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1222:25-77
+receiver#com.umeng.message.MessageReceiver
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1227:9-1233:20
+	android:process
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1229:13-36
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1228:13-61
+intent-filter#org.agoo.android.intent.action.RECEIVE
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1230:13-1232:29
+action#org.agoo.android.intent.action.RECEIVE
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1231:17-81
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1231:25-78
+receiver#com.umeng.message.ElectionReceiver
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1234:9-1242:20
+	android:process
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1236:13-36
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1235:13-62
+intent-filter#org.agoo.android.intent.action.ELECTION_RESULT_V4+umeng
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1237:13-1241:29
+action#org.agoo.android.intent.action.ELECTION_RESULT_V4
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1238:17-92
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1238:25-89
+category#umeng
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1240:17-50
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1240:27-47
+receiver#com.umeng.message.RegistrationReceiver
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1243:9-1249:20
+	android:exported
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1245:13-37
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1244:13-66
+intent-filter#com.wufriends.gugu.intent.action.COMMAND
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1246:13-1248:29
+action#com.wufriends.gugu.intent.action.COMMAND
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1247:17-83
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1247:25-80
+receiver#com.umeng.message.BootBroadcastReceiver
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1250:9-1254:20
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1250:19-73
+service#com.umeng.message.UmengService
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1256:9-1272:19
+	android:process
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1260:13-36
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1259:13-40
+	android:exported
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1258:13-36
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1257:13-58
+intent-filter#com.wufriends.gugu.intent.action.START
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1261:13-1263:29
+action#com.wufriends.gugu.intent.action.START
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1262:17-81
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1262:25-78
+intent-filter#com.wufriends.gugu.intent.action.COCKROACH
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1264:13-1266:29
+action#com.wufriends.gugu.intent.action.COCKROACH
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1265:17-85
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1265:25-82
+intent-filter#org.agoo.android.intent.action.PING_V4+umeng
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1267:13-1271:29
+action#org.agoo.android.intent.action.PING_V4
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1268:17-81
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1268:25-78
+service#com.umeng.message.UmengIntentService
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1273:9-72
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1273:18-69
+service#com.umeng.message.UmengDownloadResourceService
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1275:9-82
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1275:18-79
+service#com.umeng.update.net.DownloadingService
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1278:9-1280:61
+	android:process
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1280:13-50
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1279:13-67
+activity#com.umeng.update.UpdateDialogActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1282:9-1284:84
+	android:theme
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1284:13-72
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1283:13-65

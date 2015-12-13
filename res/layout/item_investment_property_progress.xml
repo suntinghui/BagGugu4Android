@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wave="http://schemas.android.com/com.wufriends.gugu"
+    android:layout_width="match_parent"
+    android:layout_height="60dip"
+    android:layout_marginBottom="30dip"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/rootLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_gravity="center_vertical">
+
+        <com.john.waveview.WaveView
+            android:id="@+id/waveView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#f3b520"
+            wave:above_wave_color="@android:color/white"
+            wave:blow_wave_color="@android:color/white"
+            wave:wave_height="large"
+            wave:wave_hz="fast"
+            wave:wave_length="large"
+            wave:wave_progress="60" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dip"
+            android:text="物业宝"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/amountTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="right"
+            android:gravity="center_vertical"
+            android:paddingRight="10dip"
+            android:text="0.00"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:orientation="horizontal"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip">
+
+        <TextView
+            android:id="@+id/earningsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="11"
+            android:text="当前收益：0.00 元"
+            android:textColor="@color/gray_666666"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/rateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="收益率：0.00%"
+            android:textColor="@color/gray_666666"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/rewardRateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dip"
+            android:text="+0.00%"
+            android:textColor="@color/redme"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+</LinearLayout>

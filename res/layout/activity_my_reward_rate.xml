@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_2"
+    android:orientation="vertical" >
+
+    <include
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        layout="@layout/layout_topbar" />
+
+    <me.everything.android.widget.OverScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:alpha="1.0"
+        android:background="@null" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <!-- 月加息及文字介绍 -->
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="15dip" >
+
+                <!-- +2% -->
+
+                <TextView
+                    android:id="@+id/valueTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:background="@color/blueme"
+                    android:paddingBottom="15dip"
+                    android:paddingLeft="20dip"
+                    android:paddingRight="20dip"
+                    android:paddingTop="15dip"
+                    android:text="+2%"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <!-- 月加息 -->
+
+                <TextView
+                    android:id="@+id/titleTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dip"
+                    android:layout_toRightOf="@id/valueTextView"
+                    android:text="月加息"
+                    android:textColor="@color/gray_333333"
+                    android:textSize="15sp" />
+
+                <!-- 每次投资按照肖前息值计算 -->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/titleTextView"
+                    android:layout_marginLeft="10dip"
+                    android:layout_toRightOf="@id/titleTextView"
+                    android:text="每次投资按照肖前息值计算"
+                    android:textColor="@color/blueme"
+                    android:textSize="12sp" />
+
+                <!-- 每月邀请好友，每位加+0.2%，好友注册成功再送+0.2%，每月5位好友，共计可以增加利息2%。 -->
+
+                <TextView
+                    android:id="@+id/tipTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@id/titleTextView"
+                    android:layout_below="@id/titleTextView"
+                    android:layout_marginTop="10dip"
+                    android:layout_toRightOf="@id/valueTextView"
+                    android:singleLine="false"
+                    android:text="每月邀请好友，每位加+0.2%，好友注册成功再送+0.2%，每月5位好友，共计可以增加利息2%。"
+                    android:textColor="@color/tab_text_unselected"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <!-- 月加息值，进度条等信息 -->
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:background="@color/white"
+                android:padding="15dip" >
+
+                <View
+                    android:id="@+id/popupLocationView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:layout_alignParentTop="true"
+                    android:background="@color/clear" />
+
+                <!-- 月加息值 -->
+
+                <TextView
+                    android:id="@+id/nameTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dip"
+                    android:text="月加息值"
+                    android:textColor="@color/blueme"
+                    android:textSize="13sp" />
+
+                <!-- 进度条 -->
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@id/nameTextView"
+                    android:layout_marginLeft="15dip"
+                    android:layout_toRightOf="@id/nameTextView"
+                    android:orientation="horizontal" >
+
+                    <!-- 第一段 -->
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2px"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <View
+                            android:id="@+id/topView1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="10dip"
+                            android:background="#d4d4d4" />
+
+                        <View
+                            android:id="@+id/bottomView1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="10dip"
+                            android:background="#d4d4d4" />
+                    </LinearLayout>
+
+                    <!-- 第二段 -->
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2px"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <View
+                            android:id="@+id/topView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="10dip"
+                            android:background="#d4d4d4" />
+
+                        <View
+                            android:id="@+id/bottomView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="10dip"
+                            android:background="#d4d4d4" />
+                    </LinearLayout>
+
+                    <!-- 第三段 -->
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2px"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <View
+                            android:id="@+id/topView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="10dip"
+                            android:background="#d4d4d4" />
+
+                        <View
+                            android:id="@+id/bottomView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="10dip"
+                            android:background="#d4d4d4" />
+                    </LinearLayout>
+
+                    <!-- 第四段 -->
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2px"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <View
+                            android:id="@+id/topView4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="10dip"
+                            android:background="#d4d4d4" />
+
+                        <View
+                            android:id="@+id/bottomView4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="10dip"
+                            android:background="#d4d4d4" />
+                    </LinearLayout>
+
+                    <!-- 第五段 -->
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2px"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <View
+                            android:id="@+id/topView5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="10dip"
+                            android:background="#d4d4d4" />
+
+                        <View
+                            android:id="@+id/bottomView5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="10dip"
+                            android:background="#d4d4d4" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- 可用2天 已邀请0位好友  好友中0位已注册 -->
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/nameTextView"
+                    android:layout_marginTop="20dip"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="可用"
+                        android:textColor="@color/blueme"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/surplusDayTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dip"
+                        android:layout_marginRight="5dip"
+                        android:text="0"
+                        android:textColor="@color/gray_333333"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="天"
+                        android:textColor="@color/blueme"
+                        android:textSize="12sp" />
+
+                    <!-- 已邀请0位好友 -->
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="已邀请"
+                            android:textColor="@color/blueme"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/addCountTextView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dip"
+                            android:layout_marginRight="5dip"
+                            android:text="0"
+                            android:textColor="@color/gray_333333"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="位好友"
+                            android:textColor="@color/blueme"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="好友中"
+                        android:textColor="@color/blueme"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/registCountTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dip"
+                        android:layout_marginRight="5dip"
+                        android:text="0"
+                        android:textColor="@color/gray_333333"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="位已注册"
+                        android:textColor="@color/blueme"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <!-- 邀请好友 及  好友列表 -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dip"
+                android:background="@color/white"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/addContactLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_white_gray"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dip"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip"
+                    android:paddingTop="10dip" >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/rate_friend_head" />
+
+                    <TextView
+                        android:id="@+id/inviteFriendTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dip"
+                        android:layout_weight="1"
+                        android:text="邀请好友"
+                        android:textColor="@color/gray_666666"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:id="@+id/addContactImageView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/contact_add" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/contactListLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+                </LinearLayout>
+            </LinearLayout>
+
+            <Spinner
+                android:id="@+id/contactSpinner"
+                android:layout_width="0dip"
+                android:layout_height="0dip" />
+        </LinearLayout>
+        
+    </me.everything.android.widget.OverScrollView>
+
+</LinearLayout>

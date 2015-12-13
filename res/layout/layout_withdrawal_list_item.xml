@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_white_gray"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <!-- 左边部分 -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingBottom="15dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="15dip" >
+
+        <!-- 账户余额 -->
+
+        <TextView
+            android:id="@+id/typeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="账户余额"
+            android:textColor="@color/blueme"
+            android:textSize="15sp" />
+
+        <!-- 提现到 -->
+
+        <TextView
+            android:id="@+id/tipTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:drawablePadding="5dip"
+            android:drawableRight="@drawable/withdrawal_card"
+            android:text="提现到"
+            android:textColor="@color/blueme"
+            android:textSize="14sp" />
+
+        <!-- 银行卡 -->
+
+        <TextView
+            android:id="@+id/descTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dip"
+            android:text="银行卡"
+            android:textColor="@color/gray_666666"
+            android:textSize="15sp" />
+
+        <View
+            android:id="@+id/lineView"
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_below="@id/typeTextView"
+            android:layout_marginBottom="20dip"
+            android:layout_marginTop="15dip"
+            android:background="@color/gray" />
+
+        <!-- 最下面的部分，包括金额，银行logo及放弃利息 -->
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lineView"
+            android:layout_marginRight="10dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/amountTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0.00"
+                    android:textColor="@color/gray_333333"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_weight="1"
+                    android:text="元"
+                    android:textColor="@color/gray_333333"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/bankImageView"
+                android:layout_width="25dip"
+                android:layout_height="25dip"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/bank_1"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/bankNameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:maxLines="2"
+                android:text="银行卡"
+                android:textColor="@color/gray_1"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/giveUpInterestTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:maxLines="2"
+                android:text="放弃利息\n共计0.00元"
+                android:textColor="@color/gray_1"
+                android:textSize="13sp"
+                android:visibility="gone" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!-- 最右侧箭头图片 -->
+
+    <ImageView
+        android:id="@+id/rightArrowImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dip"
+        android:src="@drawable/reward_arrow_normal"
+        android:visibility="gone" />
+
+</LinearLayout>
