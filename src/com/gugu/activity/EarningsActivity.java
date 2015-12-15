@@ -8,12 +8,14 @@ import org.codehaus.jackson.map.DeserializationConfig;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.codehaus.jackson.type.JavaType;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -46,12 +48,20 @@ public class EarningsActivity extends BaseActivity implements OnClickListener {
     private TextView millionEarningsTextView = null; // 万份收益
     private TextView yesterdayEarningsTextView = null;
     private TextView messageTextView = null; // 余额宝和银行的万份收益信息
-    private TextView propertyEarningsTextView; // 物业宝累计收益
 
     private ProgressPercentLayout hqPrincipalProportionBar = null;
     private ProgressPercentLayout dtPrincipalProportionBar = null;
     private ProgressPercentLayout hqEarningsProportionBar = null;
     private ProgressPercentLayout dtEarningsProportionBar = null;
+
+    private LinearLayout hqLayout = null; // 活期
+    private TextView hqEarningsTextView = null;
+
+    private LinearLayout dqLayout = null; // 定期
+    private TextView dqEarningsTextView = null;
+
+    private LinearLayout wybLayout = null; // 物业宝
+    private TextView wybEarningsTextView = null;
 
     private DayEarningsInfoAppDto infoDto = null;
 
@@ -102,9 +112,6 @@ public class EarningsActivity extends BaseActivity implements OnClickListener {
         yesterdayEarningsTextView = (TextView) this.findViewById(R.id.yesterdayEarningsTextView);
         yesterdayEarningsTextView.setText("0.00");
 
-        propertyEarningsTextView = (TextView) this.findViewById(R.id.propertyEarningsTextView);
-        propertyEarningsTextView.setText("0.00");
-
         hqPrincipalProportionBar = (ProgressPercentLayout) this.findViewById(R.id.hqPrincipalProportionBar);
         hqPrincipalProportionBar.setType(ProgressPercentLayout.TYPE_BLUE);
 
@@ -118,6 +125,18 @@ public class EarningsActivity extends BaseActivity implements OnClickListener {
         dtEarningsProportionBar.setType(ProgressPercentLayout.TYPE_RED);
 
         timer.schedule(task, 0, 2500);
+
+        hqEarningsTextView = (TextView) this.findViewById(R.id.hqEarningsTextView);
+        hqLayout = (LinearLayout) this.findViewById(R.id.hqLayout);
+        hqLayout.setOnClickListener(this);
+
+        dqEarningsTextView = (TextView) this.findViewById(R.id.dqEarningsTextView);
+        dqLayout = (LinearLayout) this.findViewById(R.id.dqLayout);
+        dqLayout.setOnClickListener(this);
+
+        wybEarningsTextView = (TextView) this.findViewById(R.id.wybEarningsTextView);
+        wybLayout = (LinearLayout) this.findViewById(R.id.wybLayout);
+        wybLayout.setOnClickListener(this);
     }
 
     private Handler mHandler = new Handler() {
@@ -143,6 +162,27 @@ public class EarningsActivity extends BaseActivity implements OnClickListener {
             case R.id.refreshTextView:
                 requestDayearningInfo("正在请求数据...");
                 break;
+
+            case R.id.hqLayout: {
+                Intent intent = new Intent(this, YesterdayEarningsActivity.class);
+                intent.putExtra("TYPE", "2");
+                this.startActivity(intent);
+            }
+            break;
+
+            case R.id.dqLayout: {
+                Intent intent = new Intent(this, YesterdayEarningsActivity.class);
+                intent.putExtra("TYPE", "1");
+                this.startActivity(intent);
+            }
+            break;
+
+            case R.id.wybLayout: {
+                Intent intent = new Intent(this, YesterdayEarningsActivity.class);
+                intent.putExtra("TYPE", "3");
+                this.startActivity(intent);
+            }
+            break;
 
         }
     }
@@ -211,7 +251,9 @@ public class EarningsActivity extends BaseActivity implements OnClickListener {
         messageList.add("余额宝收益 ≈ " + infoDto.getYuebaoEarnings() + "元");
         messageList.add("银行定期 ≈ " + infoDto.getBankEarnings() + "元");
 
-        propertyEarningsTextView.setText(infoDto.getWybEarnings());
+        hqEarningsTextView.setText(infoDto.getHqEarnings());
+        dqEarningsTextView.setText(infoDto.getDqEarnings());
+        wybEarningsTextView.setText(infoDto.getWybEarnings());
     }
 
     @Override

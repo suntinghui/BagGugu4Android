@@ -30,6 +30,7 @@ import com.gugu.activity.CurrentInvestmentSourceActivity;
 import com.gugu.activity.CurrentTransferInActivity;
 import com.gugu.activity.InvestmentActivity;
 import com.gugu.activity.ShowWebViewActivity;
+import com.gugu.activity.YesterdayEarningsActivity;
 import com.gugu.client.RequestEnum;
 import com.gugu.client.net.JSONRequest;
 import com.wufriends.gugu.R;
@@ -57,6 +58,7 @@ public class InvestmentCurrentLayout extends LinearLayout implements View.OnClic
 
     private TextView totalEarningsTextView; // 累计收益
     private TextView buyMoneyTextView; // 总投资额
+    private LinearLayout yesterdayEarningsLayout = null;
     private TextView yesterdayEarningsTextView; // 昨天收益
     private LinearLayout investmentWhereLayout; // 投资去向
     private CircleProgress circleProgress = null;
@@ -95,6 +97,8 @@ public class InvestmentCurrentLayout extends LinearLayout implements View.OnClic
 
         totalEarningsTextView = (TextView) this.findViewById(R.id.totalEarningsTextView);
         buyMoneyTextView = (TextView) this.findViewById(R.id.buyMoneyTextView);
+        yesterdayEarningsLayout = (LinearLayout) this.findViewById(R.id.yesterdayEarningsLayout);
+        yesterdayEarningsLayout.setOnClickListener(this);
         yesterdayEarningsTextView = (TextView) this.findViewById(R.id.yesterdayEarningsTextView);
         rateTextView = (TextView) this.findViewById(R.id.rateTextView);
         minBuyTextView = (TextView) this.findViewById(R.id.minBuyTextView);
@@ -125,7 +129,7 @@ public class InvestmentCurrentLayout extends LinearLayout implements View.OnClic
 
     private void setLineViewData(LineView lineView) {
         lineView.setPreTipList(new ArrayList<String>(Arrays.asList(new String[]{"鼓鼓活期:", "余额宝:"})));
-        lineView.setTailTipList(new ArrayList<String>(Arrays.asList(new String[]{"%", "%"})));
+        lineView.setTailTipList(new ArrayList<String>(Arrays.asList(new String[]{"%  ", "%"})));
 
         ArrayList<Integer> dataList = new ArrayList<Integer>();
         for (RateCompareAppDto dto : this.infoDto.getRateCompare1()) {
@@ -147,6 +151,13 @@ public class InvestmentCurrentLayout extends LinearLayout implements View.OnClic
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
+            case R.id.yesterdayEarningsLayout: {
+                Intent intent = new Intent(context, YesterdayEarningsActivity.class);
+                intent.putExtra("TYPE", "2");
+                context.startActivity(intent);
+            }
+            break;
+
             case R.id.investmentBtn: {
                 if (infoDto == null)
                     return;

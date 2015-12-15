@@ -47,6 +47,7 @@ import java.util.HashMap;
 import java.util.List;
 
 import com.android.volley.Response;
+
 import cn.trinea.android.view.autoscrollviewpager.AutoScrollViewPager;
 import cn.trinea.android.view.autoscrollviewpager.ImagePagerAdapter;
 
@@ -60,6 +61,10 @@ public class DiscoveryActivity extends BaseActivity implements View.OnClickListe
     private List<ImageAppDto> imageURLList = new ArrayList<ImageAppDto>();
     private LinearLayout indicatorLayout;
     private ImageView[] indicatorImageViews = null;
+
+    private TextView zizhiTextView = null;// 公司资质
+    private TextView baogaoTextView = null; // 年度报告
+    private TextView aboutTextView = null; // 关于我们
 
     private LinearLayout propertyLayout = null;
     private CustomNetworkImageView propertyImageView = null;
@@ -123,6 +128,15 @@ public class DiscoveryActivity extends BaseActivity implements View.OnClickListe
     }
 
     private void initView() {
+        zizhiTextView = (TextView) this.findViewById(R.id.zizhiTextView);
+        zizhiTextView.setOnClickListener(this);
+
+        baogaoTextView = (TextView) this.findViewById(R.id.baogaoTextView);
+        baogaoTextView.setOnClickListener(this);
+
+        aboutTextView = (TextView) this.findViewById(R.id.aboutTextView);
+        aboutTextView.setOnClickListener(this);
+
         propertyLayout = (LinearLayout) this.findViewById(R.id.propertyLayout);
         propertyLayout.setOnClickListener(this);
 
@@ -444,6 +458,30 @@ public class DiscoveryActivity extends BaseActivity implements View.OnClickListe
             case R.id.backBtn:
                 this.finish();
                 break;
+
+            case R.id.zizhiTextView: {
+                Intent intent = new Intent(this, ShowWebViewActivity.class);
+                intent.putExtra("title", "公司资质");
+                intent.putExtra("url", Constants.HOST_IP + "/app/zizhi.html");
+                startActivity(intent);
+            }
+            break;
+
+            case R.id.baogaoTextView: {
+                Intent intent = new Intent(this, ShowWebViewActivity.class);
+                intent.putExtra("title", "年度报告");
+                intent.putExtra("url", Constants.HOST_IP + "/app/ndbg.html");
+                startActivity(intent);
+            }
+            break;
+
+            case R.id.aboutTextView: {
+                Intent intent = new Intent(this, ShowWebViewActivity.class);
+                intent.putExtra("title", "关于我们");
+                intent.putExtra("url", Constants.HOST_IP + "/app/about.html");
+                startActivity(intent);
+            }
+            break;
 
             case R.id.propertyLayout: {
                 if (dtoList.isEmpty())

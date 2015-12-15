@@ -124,6 +124,7 @@ public class RequestEnum {
             requestMap.put(DISCOVERY_WAGE_LIST, new RequestModel(DISCOVERY_WAGE_LIST, Constants.HOST_IP_REQ + "/rpc/discovery/wage/list.app"));
             requestMap.put(DISCOVERY_PROPERTY_FEES, new RequestModel(DISCOVERY_PROPERTY_FEES, Constants.HOST_IP_REQ + "/rpc/discovery/property/fees.app"));
             requestMap.put(DISCOVERY_PROPERTY_FEES_REFUND, new RequestModel(DISCOVERY_PROPERTY_FEES_REFUND, Constants.HOST_IP_REQ + "/rpc/discovery/property/fees/refund.app"));
+            requestMap.put(USER_EARNINGS_LIST, new RequestModel(USER_EARNINGS_LIST, Constants.HOST_IP_REQ + "/rpc/user/earnings/list.app"));
 
             // 注意保留 rpc
         }
@@ -242,6 +243,7 @@ public class RequestEnum {
     public static final String DISCOVERY_WAGE_LIST = "DISCOVERY_WAGE_LIST"; // 代发工资记录
     public static final String DISCOVERY_PROPERTY_FEES = "DISCOVERY_PROPERTY_FEES"; // 申请返还保障金详情
     public static final String DISCOVERY_PROPERTY_FEES_REFUND = "DISCOVERY_PROPERTY_FEES_REFUND"; // 申请返还保障金
+    public static final String USER_EARNINGS_LIST = "USER_EARNINGS_LIST"; // 收益记录
 
 
     // TEMP

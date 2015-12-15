@@ -84,9 +84,17 @@ public class DayEarningsInfoAppDto implements Serializable {
 	 */
 	private int dtEarningsProportion;
 	/**
-	 * 物业宝收益
+	 * 物业宝昨日收益
 	 */
 	private String wybEarnings;
+	/**
+	 * 活期昨日收益
+	 */
+	private String hqEarnings;
+	/**
+	 * 定期昨日收益
+	 */
+	private String dqEarnings;
 
 	public String getEarnings() {
 		return earnings;
@@ -238,5 +246,21 @@ public class DayEarningsInfoAppDto implements Serializable {
 
 	public void setWybEarnings(String wybEarnings) {
 		this.wybEarnings = wybEarnings;
+	}
+
+	public String getHqEarnings() {
+		return hqEarnings;
+	}
+
+	public void setHqEarnings(String hqEarnings) {
+		this.hqEarnings = hqEarnings;
+	}
+
+	public String getDqEarnings() {
+		return dqEarnings;
+	}
+
+	public void setDqEarnings(String dqEarnings) {
+		this.dqEarnings = dqEarnings;
 	}
 }
