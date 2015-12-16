@@ -478,7 +478,7 @@ public class DiscoveryActivity extends BaseActivity implements View.OnClickListe
             case R.id.aboutTextView: {
                 Intent intent = new Intent(this, ShowWebViewActivity.class);
                 intent.putExtra("title", "关于我们");
-                intent.putExtra("url", Constants.HOST_IP + "/app/about.html");
+                intent.putExtra("url", Constants.HOST_IP + "/app/aboutus.html");
                 startActivity(intent);
             }
             break;
