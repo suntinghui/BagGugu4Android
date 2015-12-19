@@ -14,7 +14,7 @@ public class Constants {
     public static final String HOST_IP_REQ = HOST_IP + ":8715";
 
     // 测试
-//    public static final String HOST_IP = "http://192.168.1.105:8715";
+//    public static final String HOST_IP = "http://192.168.1.101:8715";
 //    public static final String HOST_IP_REQ = HOST_IP;
 
     public static final String PROTOCOL_IP = HOST_IP + "/app/agreement.html";

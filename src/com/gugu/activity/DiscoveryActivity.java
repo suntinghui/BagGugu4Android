@@ -483,7 +483,7 @@ public class DiscoveryActivity extends BaseActivity implements View.OnClickListe
             }
             break;
 
-            case R.id.propertyLayout: {
+            case R.id.propertyLayout: { // 物业宝
                 if (dtoList.isEmpty())
                     return;
 
@@ -502,7 +502,7 @@ public class DiscoveryActivity extends BaseActivity implements View.OnClickListe
             }
             break;
 
-            case R.id.wageLayout: {
+            case R.id.wageLayout: { // 薪资宝
                 if (dtoList.isEmpty())
                     return;
 

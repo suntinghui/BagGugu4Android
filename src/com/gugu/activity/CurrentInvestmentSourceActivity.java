@@ -30,6 +30,7 @@ import com.gugu.utils.ActivityUtil;
 import com.whos.swiperefreshandload.view.SwipeRefreshLayout;
 import com.wufriends.gugu.R;
 
+import org.apache.commons.lang3.StringUtils;
 import org.codehaus.jackson.map.DeserializationConfig;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.codehaus.jackson.type.JavaType;
@@ -246,8 +247,13 @@ public class CurrentInvestmentSourceActivity extends BaseActivity implements Vie
             holder.logoImageView.setImageUrl(infoDto.getLogoImg(), ImageCacheManager.getInstance().getImageLoader());
 
             holder.numTextView.setText(infoDto.getSourceNum());
-            holder.realNameTextView.setText(infoDto.getRealName());
             holder.orgTextView.setText(infoDto.getOrganization());
+
+            if (StringUtils.isEmpty(infoDto.getRealName())) {
+                holder.realNameTextView.setText(infoDto.getRealName());
+            } else {
+                holder.realNameTextView.setText(infoDto.getRealName() + "  ");
+            }
 
             holder.contentLayout.setOnClickListener(new View.OnClickListener() {
                 @Override

@@ -94,6 +94,17 @@
                     android:textColor="#ffffff"
                     android:textSize="12sp" />
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dip"
+                    android:layout_marginTop="5dip"
+                    android:drawableLeft="@drawable/bg_white_circle_3"
+                    android:drawablePadding="10dip"
+                    android:text="物业公司提供十年物业服务担保。"
+                    android:textColor="#ffffff"
+                    android:textSize="12sp" />
+
             </LinearLayout>
 
             <!-- 物业保障金 累计收益 -->
@@ -145,7 +156,7 @@
                     </LinearLayout>
 
                     <TextView
-                        android:id="@+id/statusTextView"
+                        android:id="@+id/propertyStatusTextView"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="5dip"
@@ -169,6 +180,7 @@
 
                 <!-- 累计收益 -->
                 <LinearLayout
+                    android:id="@+id/earningsLayout"
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
                     android:layout_weight="1"
@@ -208,6 +220,25 @@
                             android:textColor="@color/orange"
                             android:textSize="11sp" />
                     </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/earningsStatusTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dip"
+                        android:text="债权已匹配"
+                        android:textColor="#999999"
+                        android:textSize="12sp"
+                        android:visibility="invisible" />
+
+                    <ImageView
+                        android:id="@+id/earningTipImageView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|right"
+                        android:layout_marginTop="-5dip"
+                        android:background="@drawable/bag_img_09"
+                        android:visibility="invisible" />
 
                 </LinearLayout>
 

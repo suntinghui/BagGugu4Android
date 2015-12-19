@@ -190,7 +190,7 @@
                 android:layout_weight="1"
                 android:text="我的投资"
                 android:textColor="#666666"
-                android:textSize="17sp" />
+                android:textSize="16sp" />
 
             <ImageView
                 android:id="@+id/redCircleInvestmentImageView"
@@ -239,7 +239,7 @@
                 android:layout_weight="1"
                 android:text="回款明细"
                 android:textColor="#666666"
-                android:textSize="17sp" />
+                android:textSize="16sp" />
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -287,7 +287,7 @@
                 android:layout_weight="1"
                 android:text="我的好友"
                 android:textColor="#666666"
-                android:textSize="17sp" />
+                android:textSize="16sp" />
 
             <ImageView
                 android:id="@+id/redCircleFriendImageView"
@@ -335,7 +335,7 @@
                 android:layout_weight="1"
                 android:text="我的奖励"
                 android:textColor="#666666"
-                android:textSize="17sp" />
+                android:textSize="16sp" />
 
             <com.gugu.activity.view.RewardTipLayout
                 android:id="@+id/rewardTipLayout"
@@ -386,7 +386,7 @@
                 android:layout_weight="1"
                 android:text="朋友圈获利"
                 android:textColor="#666666"
-                android:textSize="17sp" />
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/receiveEarningsTextView"
@@ -448,7 +448,7 @@
                 android:layout_weight="1"
                 android:text="交易记录"
                 android:textColor="#666666"
-                android:textSize="17sp" />
+                android:textSize="16sp" />
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -487,7 +487,7 @@
                 android:layout_weight="1"
                 android:text="提现记录"
                 android:textColor="#666666"
-                android:textSize="17sp" />
+                android:textSize="16sp" />
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -526,7 +526,7 @@
                 android:layout_weight="1"
                 android:text="我要提现"
                 android:textColor="#666666"
-                android:textSize="17sp" />
+                android:textSize="16sp" />
 
             <TextView
                 android:layout_width="wrap_content"

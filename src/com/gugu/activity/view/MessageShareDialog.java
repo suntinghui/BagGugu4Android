@@ -69,8 +69,8 @@ public class MessageShareDialog extends Dialog implements View.OnClickListener {
 
         this.setContentView(R.layout.layout_message_share);
 
-        this.setCanceledOnTouchOutside(true);
-        this.setCancelable(true);
+        this.setCanceledOnTouchOutside(false);
+        this.setCancelable(false);
         this.getWindow().getAttributes().gravity = Gravity.CENTER;
         WindowManager.LayoutParams lp = this.getWindow().getAttributes();
         lp.dimAmount = 0.5f;

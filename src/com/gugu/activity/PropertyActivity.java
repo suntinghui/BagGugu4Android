@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.text.Html;
 import android.util.Property;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -42,11 +43,15 @@ public class PropertyActivity extends BaseActivity implements View.OnClickListen
     private TextView addressTextView = null;
     private TextView tipTextView = null;
     private TextView totalMoneyTextView = null;
-    private TextView statusTextView = null;
+    private TextView propertyStatusTextView = null;
     private TextView rateTextView = null;
     private TextView earningsTextView = null;
 
     private LinearLayout rechargeLayout = null;
+    private LinearLayout earningsLayout = null;
+
+    private TextView earningsStatusTextView = null;
+    private ImageView earningTipImageView = null;
 
     private TextView frozenTipTextView = null;
     private LinearLayout contentLayout = null;
@@ -77,11 +82,18 @@ public class PropertyActivity extends BaseActivity implements View.OnClickListen
         this.addressTextView = (TextView) this.findViewById(R.id.addressTextView);
         this.tipTextView = (TextView) this.findViewById(R.id.tipTextView);
         this.totalMoneyTextView = (TextView) this.findViewById(R.id.totalMoneyTextView);
-        this.statusTextView = (TextView) this.findViewById(R.id.statusTextView);
+        this.propertyStatusTextView = (TextView) this.findViewById(R.id.propertyStatusTextView);
         this.rateTextView = (TextView) this.findViewById(R.id.rateTextView);
         this.earningsTextView = (TextView) this.findViewById(R.id.earningsTextView);
+
         this.rechargeLayout = (LinearLayout) this.findViewById(R.id.rechargeLayout);
         this.rechargeLayout.setOnClickListener(this);
+
+        this.earningsLayout = (LinearLayout) this.findViewById(R.id.earningsLayout);
+        this.earningsLayout.setOnClickListener(this);
+
+        this.earningsStatusTextView = (TextView) this.findViewById(R.id.earningsStatusTextView);
+        this.earningTipImageView = (ImageView) this.findViewById(R.id.earningTipImageView);
 
         frozenTipTextView = (TextView) this.findViewById(R.id.frozenTipTextView);
         contentLayout = (LinearLayout) this.findViewById(R.id.contentLayout);
@@ -125,21 +137,29 @@ public class PropertyActivity extends BaseActivity implements View.OnClickListen
         this.earningsTextView.setText(infoDto.getEarnings());
 
         if (Double.parseDouble(infoDto.getPayMoney()) == 0.00) {
-            this.statusTextView.setText("冻结中");
-            this.statusTextView.setTextColor(Color.parseColor("#999999"));
+            this.propertyStatusTextView.setText("冻结中");
+            this.propertyStatusTextView.setTextColor(Color.parseColor("#999999"));
 
             this.frozenTipTextView.setVisibility(View.GONE);
             this.contentLayout.setVisibility(View.VISIBLE);
 
+            this.earningTipImageView.setVisibility(View.VISIBLE);
+            this.earningsStatusTextView.setVisibility(View.VISIBLE);
+            this.earningsLayout.setOnClickListener(this);
+
             this.requestPropertyDeduction();
 
         } else {
-            this.statusTextView.setText("点击支付");
-            this.statusTextView.setTextColor(getResources().getColor(R.color.greenme));
+            this.propertyStatusTextView.setText("点击支付");
+            this.propertyStatusTextView.setTextColor(getResources().getColor(R.color.greenme));
 
             this.frozenTipTextView.setText("保障金在冻结期间，可以随时申请退出物业宝活动，" + infoDto.getCompanyName() + "会在确认后3个工作日内将物业保障金退还业主。\n退还业主后，物业费减免活动自动取消。");
             this.frozenTipTextView.setVisibility(View.VISIBLE);
             this.contentLayout.setVisibility(View.GONE);
+
+            this.earningTipImageView.setVisibility(View.INVISIBLE);
+            this.earningsStatusTextView.setVisibility(View.INVISIBLE);
+            this.earningsLayout.setOnClickListener(null);
         }
     }
 
@@ -208,6 +228,13 @@ public class PropertyActivity extends BaseActivity implements View.OnClickListen
                     intent.putExtra("DTO", infoDto);
                     this.startActivity(intent);
                 }
+            }
+            break;
+
+            case R.id.earningsLayout: {
+                Intent intent = new Intent(this, CurrentInvestmentSourceActivity.class);
+                intent.putExtra("id", infoDto.getDebtId() + "");
+                this.startActivity(intent);
             }
             break;
         }

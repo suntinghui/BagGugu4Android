@@ -87,6 +87,7 @@ public class WithdrawalQTActivity extends BaseActivity implements OnRefreshListe
         adapter = new WithdrawalQDItemAdapter(this, this.type);
 
         headView = new WithdrawalHeadView(this, this.type);
+        headView.setVisibility(View.GONE);
         listView.addHeaderView(headView);
 
         swingBottomInAnimationAdapter = new SwingBottomInAnimationAdapter(adapter);
@@ -171,6 +172,12 @@ public class WithdrawalQTActivity extends BaseActivity implements OnRefreshListe
                         // 恶心到了吗？
                         if (WithdrawalQTActivity.this.type == TYPE_DT && !dto.getData().getList().isEmpty()) {
                             headView.setData(dto.getData().getList().get(0).getRansomHint1());
+                        }
+
+                        if (dto.getData().getList().isEmpty()) {
+                            headView.setVisibility(View.GONE);
+                        } else {
+                            headView.setVisibility(View.VISIBLE);
                         }
 
                         adapter.notifyDataSetChanged();

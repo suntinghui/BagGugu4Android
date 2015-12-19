@@ -8,6 +8,7 @@ import org.codehaus.jackson.map.DeserializationConfig;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.codehaus.jackson.type.JavaType;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -35,6 +36,7 @@ import com.android.volley.Response;
 import com.ares.baggugu.dto.app.AppMessageDto;
 import com.ares.baggugu.dto.app.AppResponseStatus;
 import com.ares.baggugu.dto.app.ImSubAccountsAppDto;
+import com.gugu.activity.view.LoginAfterDialog;
 import com.wufriends.gugu.R;
 import com.gugu.activity.gesture.GestureLockSetupActivity;
 import com.gugu.client.Constants;
@@ -139,6 +141,23 @@ public class RegisterActivity extends BaseActivity implements OnClickListener {
         this.finish();
     }
 
+    private void showSuccessDialog() {
+        LoginAfterDialog dialog = new LoginAfterDialog(this);
+        dialog.setOnDismissListener(new DialogInterface.OnDismissListener() {
+            @Override
+            public void onDismiss(DialogInterface dialogInterface) {
+                Intent intent = new Intent(RegisterActivity.this, GestureLockSetupActivity.class);
+                intent.putExtra("TYPE", GestureLockSetupActivity.TYPE_REGISTER);
+                RegisterActivity.this.startActivity(intent);
+
+                RegisterActivity.this.setResult(RESULT_OK);
+                RegisterActivity.this.finish();
+            }
+        });
+
+        dialog.show();
+    }
+
     private boolean checkValue() {
         if (TextUtils.isEmpty(codeEditText.getText().toString().trim())) {
             Toast.makeText(this, "请输入验证码", Toast.LENGTH_SHORT).show();
@@ -203,16 +222,7 @@ public class RegisterActivity extends BaseActivity implements OnClickListener {
 
                         ActivityUtil.getSharedPreferences().edit().putString(Constants.USERID, dto.getData().getUserId()).commit();
 
-//						Intent intent = new Intent(RegisterActivity.this, VerifyEmergencyContactActivity.class);
-//						intent.putExtra("FROM", VerifyEmergencyContactActivity.FROM_LOGIN);
-//						RegisterActivity.this.startActivity(intent);
-
-                        Intent intent = new Intent(RegisterActivity.this, GestureLockSetupActivity.class);
-                        intent.putExtra("TYPE", GestureLockSetupActivity.TYPE_REGISTER);
-                        RegisterActivity.this.startActivity(intent);
-
-                        RegisterActivity.this.setResult(RESULT_OK);
-                        RegisterActivity.this.finish();
+                        showSuccessDialog();
 
                     } else {
                         Toast.makeText(RegisterActivity.this, dto.getMsg(), Toast.LENGTH_SHORT).show();

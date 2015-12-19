@@ -297,8 +297,12 @@ public class ShowShareWebViewActivity extends BaseActivity implements OnClickLis
     Runnable runnable = new Runnable() {
 
         public void run() {
-            tipPopup.dismiss();
-            handler.removeCallbacks(this);
+            try{
+                tipPopup.dismiss();
+                handler.removeCallbacks(this);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
         }
     };
 

@@ -352,7 +352,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dip"
                     android:layout_marginTop="8dip"
-                    android:text="考核全员工资流水，资金还款来源，相关企业具有不动产抵御担保，企业相关股东或法人承担连带担保责任。"
+                    android:text="考核全员工资流水，资金还款来源，相关企业具有不动产抵押担保，企业相关股东或法人承担连带担保责任。"
                     android:textColor="#999999"
                     android:textSize="13sp" />
             </LinearLayout>
