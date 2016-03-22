@@ -185,6 +185,7 @@ public class CurrentActivity extends BaseActivity implements View.OnClickListene
 
             // 没有绑定
             Intent intent = new Intent(this, BindingBankActivity.class);
+            intent.putExtra("MAP", map);
             this.startActivity(intent);
 
         } else {

@@ -109,6 +109,7 @@ public class TransferClient {
                 if (bankId == null || TextUtils.isEmpty(bankId) || TextUtils.equals(bankId, "null")) {
                     // 没有绑定
                     Intent intent = new Intent(context, BindingBankActivity.class);
+                    intent.putExtra("MAP", map);
                     context.startActivity(intent);
 
                 } else {
