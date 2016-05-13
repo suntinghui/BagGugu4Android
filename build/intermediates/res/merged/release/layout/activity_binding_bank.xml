@@ -364,6 +364,8 @@
                         android:textSize="16sp" />
 
                     <Button
+                        android:minWidth="10dip"
+                        android:minHeight="10dip"
                         android:id="@+id/timeBtn"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"

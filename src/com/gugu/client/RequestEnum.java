@@ -125,6 +125,9 @@ public class RequestEnum {
             requestMap.put(DISCOVERY_PROPERTY_FEES, new RequestModel(DISCOVERY_PROPERTY_FEES, Constants.HOST_IP_REQ + "/rpc/discovery/property/fees.app"));
             requestMap.put(DISCOVERY_PROPERTY_FEES_REFUND, new RequestModel(DISCOVERY_PROPERTY_FEES_REFUND, Constants.HOST_IP_REQ + "/rpc/discovery/property/fees/refund.app"));
             requestMap.put(USER_EARNINGS_LIST, new RequestModel(USER_EARNINGS_LIST, Constants.HOST_IP_REQ + "/rpc/user/earnings/list.app"));
+            requestMap.put(CONFIG, new RequestModel(CONFIG, Constants.HOST_IP_REQ + "/rpc/config.app"));
+            requestMap.put(USER_DEBTPACKAGE_TRANSTER_LIST, new RequestModel(USER_DEBTPACKAGE_TRANSTER_LIST, Constants.HOST_IP_REQ + "/rpc/user/debtpackage/transter/list.app"));
+            requestMap.put(USER_DEBTPACKAGE_TRANSTER_INFO, new RequestModel(USER_DEBTPACKAGE_TRANSTER_INFO, Constants.HOST_IP_REQ + "/rpc/user/debtpackage/transter/info.app"));
 
             // 注意保留 rpc
         }
@@ -244,7 +247,9 @@ public class RequestEnum {
     public static final String DISCOVERY_PROPERTY_FEES = "DISCOVERY_PROPERTY_FEES"; // 申请返还保障金详情
     public static final String DISCOVERY_PROPERTY_FEES_REFUND = "DISCOVERY_PROPERTY_FEES_REFUND"; // 申请返还保障金
     public static final String USER_EARNINGS_LIST = "USER_EARNINGS_LIST"; // 收益记录
-
+    public static final String CONFIG = "CONFIG";
+    public static final String USER_DEBTPACKAGE_TRANSTER_LIST = "USER_DEBTPACKAGE_TRANSTER_LIST"; // 赎回转让列表
+    public static final String USER_DEBTPACKAGE_TRANSTER_INFO = "USER_DEBTPACKAGE_TRANSTER_INFO"; // 赎回转让详情
 
     // TEMP
     public static final String ME = "ME";

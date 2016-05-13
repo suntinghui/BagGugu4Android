@@ -1,5 +1,6 @@
 package com.gugu.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -26,7 +27,7 @@ import com.android.volley.Response;
 /**
  * Created by sth on 9/2/15.
  * <p/>
- * 活期转入
+ * 活期转出
  */
 public class CurrentTransferOutActivity extends BaseActivity implements View.OnClickListener {
 
@@ -55,6 +56,8 @@ public class CurrentTransferOutActivity extends BaseActivity implements View.OnC
 
         Button backButton = (Button) this.findViewById(R.id.backBtn);
         backButton.setOnClickListener(this);
+
+        this.findViewById(R.id.redeemListTextView).setOnClickListener(this);
 
         balanceTextView = (TextView) this.findViewById(R.id.balanceTextView);
         moneyEditText = (EditText) this.findViewById(R.id.moneyEditText);
@@ -163,6 +166,11 @@ public class CurrentTransferOutActivity extends BaseActivity implements View.OnC
                     });
                     verifyTransferPwdDialog.show();
                 }
+                break;
+
+            case R.id.redeemListTextView:
+                Intent intent = new Intent(this, RedeemListActivity.class);
+                startActivity(intent);
                 break;
         }
     }

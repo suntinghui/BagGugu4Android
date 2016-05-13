@@ -255,7 +255,6 @@ public class NotFirstPayActivity extends BaseActivity implements OnClickListener
 						transferInfo.setBankName(bankName);
 
 						Intent intent = new Intent(NotFirstPayActivity.this, PaySuccessActivity.class);
-						intent.putExtra("TYPE", PaySuccessActivity.TYPE_BANKCARD);
 						intent.putExtra("INFO", transferInfo);
 						intent.putExtra("SHAKE", dto.getData());
 						NotFirstPayActivity.this.startActivityForResult(intent, 0);

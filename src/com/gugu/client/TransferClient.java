@@ -157,7 +157,6 @@ public class TransferClient {
                     if (dto.getStatus() == AppResponseStatus.SUCCESS) {
                         if (dto.getData() == 0 || dto.getData() == -1) { // 等于0说明直接使⽤用余额购买成功, -1不使用摇一摇
                             Intent intent = new Intent(context, PaySuccessActivity.class);
-                            intent.putExtra("TYPE", PaySuccessActivity.TYPE_BALANCE);
                             intent.putExtra("INFO", transferInfo);
                             intent.putExtra("SHAKE", "" + dto.getData());
                             context.startActivityForResult(intent, 0);

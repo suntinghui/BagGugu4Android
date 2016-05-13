@@ -3,235 +3,79 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#f9f9f9"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
     <include
+        layout="@layout/layout_topbar"
         android:layout_width="fill_parent"
-        android:layout_height="50dip"
-        layout="@layout/layout_topbar" />
+        android:layout_height="50dip" />
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:weightSum="2"
-        android:orientation="vertical" >
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
 
         <LinearLayout
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:orientation="vertical" >
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
 
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="30dip"
                 android:src="@drawable/pay_success" />
-        </LinearLayout>
-
-        <!-- 投资金额信息 -->
-
-        <View
-            android:layout_width="fill_parent"
-            android:layout_height="1px"
-            android:background="@color/gray" />
-
-        <!-- 投资总金额 -->
-
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:background="#ffffff"
-            android:orientation="horizontal"
-            android:paddingBottom="5dip"
-            android:paddingLeft="20dip"
-            android:paddingRight="20dip"
-            android:paddingTop="15dip" >
 
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="投资总金额:"
-                android:textColor="@color/gray"
+                android:layout_marginLeft="20dip"
+                android:layout_marginTop="20dip"
+                android:lineSpacingExtra="5dip"
+                android:text="等待第三方公司确认...\n如成功则对接债权；如失败资金将退还到银行卡"
+                android:textColor="#CCCCCC"
                 android:textSize="15sp" />
 
-            <TextView
-                android:id="@+id/totalMoneyTextView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="0.00"
-                android:textColor="@color/gray_333333"
-                android:textSize="16sp" />
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="20dip"
+                android:background="@drawable/pay_success_1">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text=" 元"
-                android:textColor="@color/gray_333333"
-                android:textSize="12sp" />
-        </LinearLayout>
+                <TextView
+                    android:id="@+id/timeTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="60dip"
+                    android:layout_marginTop="38dip"
+                    android:text="2016-02-10 09:42:00"
+                    android:textColor="#1898FE"
+                    android:textSize="12sp" />
 
-        <!-- 账户余额支付 -->
+                <TextView
+                    android:id="@+id/moneyTextView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="45dip"
+                    android:layout_marginTop="15dip"
+                    android:gravity="right"
+                    android:text="20000.00"
+                    android:textColor="#333333"
+                    android:textSize="18sp" />
 
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:background="#ffffff"
-            android:orientation="horizontal"
-            android:paddingBottom="5dip"
-            android:paddingLeft="20dip"
-            android:paddingRight="20dip"
-            android:paddingTop="10dip" >
+            </FrameLayout>
 
-            <TextView
+            <ImageView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="账户余额支付:"
-                android:textColor="@color/gray"
-                android:textSize="15sp" />
+                android:layout_marginTop="20dip"
+                android:background="@drawable/pay_success_2" />
 
-            <TextView
-                android:id="@+id/balanceMoneyTextView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="0.00"
-                android:textColor="@color/gray_333333"
-                android:textSize="16sp" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text=" 元"
-                android:textColor="@color/gray_333333"
-                android:textSize="12sp" />
         </LinearLayout>
 
-        <!-- 账户余额 -->
-
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:background="#ffffff"
-            android:orientation="horizontal"
-            android:paddingBottom="15dip"
-            android:paddingLeft="20dip"
-            android:paddingRight="20dip"
-            android:paddingTop="10dip" >
-
-            <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="投资后账户余额:"
-                android:textColor="@color/gray"
-                android:textSize="15sp" />
-
-            <TextView
-                android:id="@+id/balanceTextView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="0.00"
-                android:textColor="@color/gray_333333"
-                android:textSize="16sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text=" 元"
-                android:textColor="@color/gray_333333"
-                android:textSize="12sp" />
-        </LinearLayout>
-
-        <!-- 银行卡支付 -->
-
-        <LinearLayout
-            android:id="@+id/surplusMoneyLayout"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:background="#ffffff"
-            android:orientation="horizontal"
-            android:paddingBottom="5dip"
-            android:paddingLeft="20dip"
-            android:paddingRight="20dip"
-            android:paddingTop="0dip" >
-
-            <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="银行卡支付:"
-                android:textColor="@color/gray"
-                android:textSize="15sp" />
-
-            <TextView
-                android:id="@+id/surplusMoneyTextView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="0.00"
-                android:textColor="@color/gray_333333"
-                android:textSize="16sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text=" 元"
-                android:textColor="@color/gray_333333"
-                android:textSize="12sp" />
-        </LinearLayout>
-
-        <!-- 银行卡 -->
-
-        <LinearLayout
-            android:id="@+id/bankNameLayout"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:background="#ffffff"
-            android:orientation="horizontal"
-            android:paddingBottom="15dip"
-            android:paddingLeft="20dip"
-            android:paddingRight="20dip"
-            android:paddingTop="10dip" >
-
-            <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="银行卡:"
-                android:textColor="@color/gray"
-                android:textSize="15sp" />
-
-            <TextView
-                android:id="@+id/bankNameTextView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text=""
-                android:textColor="@color/gray_333333"
-                android:textSize="16sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="  尾号"
-                android:textColor="@color/gray_333333"
-                android:textSize="16sp" />
-
-            <TextView
-                android:id="@+id/tailNumTextView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="0000"
-                android:textColor="@color/gray_333333"
-                android:textSize="16sp" />
-        </LinearLayout>
-
-        <View
-            android:layout_width="fill_parent"
-            android:layout_height="1px"
-            android:background="@color/gray" />
-    </LinearLayout>
+    </ScrollView>
 
     <Button
         android:id="@+id/doneBtn"

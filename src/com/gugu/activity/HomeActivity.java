@@ -80,10 +80,12 @@ public class HomeActivity extends BaseActivity implements OnClickListener {
     private ImageView[] indicatorImageViews = null;
 
     private HomeItemLayout currentLayout = null;
-    private HomeItemLayout scheduledLayout = null;
 
     private CustomNetworkImageView securityImageView = null;
     private CustomNetworkImageView guideImageView = null;
+
+    private TextView countTextView = null;
+    private TextView totalMoneyTextView = null;
 
     private IndexAppDto appDto = null;
 
@@ -146,7 +148,6 @@ public class HomeActivity extends BaseActivity implements OnClickListener {
         params.setMargins(0, AdapterUtil.dip2px(this, 10), 0, 0);
 
         contentLayout.addView(initCurrentItem(), params);
-        contentLayout.addView(initScheduledItem(), params);
 
         securityImageView = (CustomNetworkImageView) this.findViewById(R.id.securityImageView);
         securityImageView.setOnClickListener(this);
@@ -154,7 +155,10 @@ public class HomeActivity extends BaseActivity implements OnClickListener {
         guideImageView = (CustomNetworkImageView) this.findViewById(R.id.guideImageView);
         guideImageView.setOnClickListener(this);
 
-//        initSwipeRefresh();
+        countTextView = (TextView) this.findViewById(R.id.countTextView);
+        totalMoneyTextView = (TextView) this.findViewById(R.id.totalMoneyTextView);
+
+        // initSwipeRefresh();
     }
 
     @SuppressLint("ResourceAsColor")
@@ -280,11 +284,14 @@ public class HomeActivity extends BaseActivity implements OnClickListener {
         currentLayout.setLineColor(Color.parseColor("#1caff6"));
 
         currentLayout.setTitle("鼓鼓活期", true);
-        currentLayout.getTipTextView().setText("超银行活期36倍");
-        currentLayout.getTipTextView().setBackgroundResource(R.drawable.rounded_blue_corner);
-        currentLayout.getSbTextView().setText("参与：");
-        currentLayout.getUserCountTextView().setText("0");
-        currentLayout.getCompleteTextView().setText("完成：");
+
+        currentLayout.getTipTextView().setVisibility(View.GONE);
+
+        currentLayout.getSbTextView().setText("时时匹配债权，收益天天见");
+        currentLayout.getMbTextView().setVisibility(View.GONE);
+        currentLayout.getUserCountTextView().setVisibility(View.GONE);
+
+        currentLayout.getCompleteTextView().setText("剩余债权：");
         currentLayout.getSurplusMoneyTextView().setText("0.00");
         currentLayout.getAddTextView().setVisibility(View.GONE);
         currentLayout.getCircleLayout().setBackgroundResource(R.drawable.home_circle_02);
@@ -294,67 +301,12 @@ public class HomeActivity extends BaseActivity implements OnClickListener {
             public void onClick(View v) {
                 InvestmentActivity.setDefaultType(InvestmentActivity.TYPE_HQ);
 
-                /*
-                // 切到投资理财
-                Intent intent1 = new Intent(MainActivity.ACTION_CHECK_TABHOST);
-                intent1.putExtra("INDEX", 1);
-                sendBroadcast(intent1);
-
-                // 再切到投资理财的抢投
-                Intent intent2 = new Intent(InvestmentActivity.ACTION_CHANNEL);
-                intent2.putExtra("TYPE", InvestmentActivity.TYPE_HQ);
-                sendBroadcast(intent2);
-                */
-
                 Intent intent = new Intent(HomeActivity.this, InvestmentActivity.class);
                 intent.putExtra("type", InvestmentActivity.TYPE_HQ);
                 HomeActivity.this.startActivity(intent);
             }
         });
         return currentLayout;
-    }
-
-    private HomeItemLayout initScheduledItem() {
-        scheduledLayout = new HomeItemLayout(this);
-        scheduledLayout.setLeftImageView(R.drawable.home_item_02);
-        scheduledLayout.setLineColor(Color.parseColor("#92D94A"));
-
-        scheduledLayout.setTitle("鼓鼓定期", false);
-        scheduledLayout.getTipTextView().setText("月加息再加2%");
-        scheduledLayout.getTipTextView().setBackgroundResource(R.drawable.rounded_green_corner);
-        scheduledLayout.getSbTextView().setText("安全有保障，收益天天见");
-        scheduledLayout.getMbTextView().setVisibility(View.GONE);
-        scheduledLayout.getUserCountTextView().setVisibility(View.GONE);
-        scheduledLayout.getCircleLayout().setBackgroundResource(R.drawable.home_circle_01);
-        scheduledLayout.getCompleteTextView().setText("完成：");
-        scheduledLayout.getSurplusMoneyTextView().setText("0.00");
-        scheduledLayout.getAddTextView().setVisibility(View.VISIBLE);
-
-        scheduledLayout.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                /*
-                // 解决投资理财未初始的问题
-                InvestmentActivity.setDefaultType(InvestmentActivity.TYPE_DQ);
-
-                // 切到投资理财
-                Intent intent1 = new Intent(MainActivity.ACTION_CHECK_TABHOST);
-                intent1.putExtra("INDEX", 1);
-                sendBroadcast(intent1);
-
-                // 再切到投资理财的定投
-                Intent intent2 = new Intent(InvestmentActivity.ACTION_CHANNEL);
-                intent2.putExtra("TYPE", InvestmentActivity.TYPE_DQ);
-                sendBroadcast(intent2);
-                */
-
-                Intent intent = new Intent(HomeActivity.this, InvestmentActivity.class);
-                intent.putExtra("type", InvestmentActivity.TYPE_DQ);
-                HomeActivity.this.startActivity(intent);
-            }
-        });
-
-        return scheduledLayout;
     }
 
     private void requestDebtPackageIndex() {
@@ -401,16 +353,12 @@ public class HomeActivity extends BaseActivity implements OnClickListener {
         initViewPager();
         viewPagerAdapter.notifyDataSetChanged();
 
-//        this.securityImageView.setImageUrl(Constants.HOST_IP + this.appDto.getSafetyImg().getImgUrl(), ImageCacheManager.getInstance().getImageLoader());
-//        this.guideImageView.setImageUrl(Constants.HOST_IP + this.appDto.getStrategyImg().getImgUrl(), ImageCacheManager.getInstance().getImageLoader());
-
         Constants.PHONE_SERVICE = this.appDto.getServiceTelphone();
 
         // 活期
         HQInfoAppDto hqDto = this.appDto.getHq();
-        currentLayout.getTipTextView().setText("超银行活期" + hqDto.getBank() + "倍");
-        currentLayout.getUserCountTextView().setText(hqDto.getUserCount() + "");
-        currentLayout.getSurplusMoneyTextView().setText(StringUtil.formatAmount(Double.parseDouble(hqDto.getTotalMoney()) - Double.parseDouble(hqDto.getSurplusMoneyStr())));
+        currentLayout.getSbTextView().setText(StringUtils.isBlank(hqDto.getRemark()) ? "时时匹配债权，收益天天见" : hqDto.getRemark());
+        currentLayout.getSurplusMoneyTextView().setText(hqDto.getSurplusMoneyStr());
         currentLayout.getRateTextView().setText(hqDto.getRate());
         if (Double.parseDouble(hqDto.getSurplusMoney()) > 0) {
             currentLayout.getStateTextView().setText("抢购中");
@@ -429,27 +377,9 @@ public class HomeActivity extends BaseActivity implements OnClickListener {
             currentLayout.setProgress(0);
         }
 
-        // 定投
-        HQInfoAppDto dtDto = this.appDto.getDq();
-        scheduledLayout.getSurplusMoneyTextView().setText(StringUtil.formatAmount(Double.parseDouble(dtDto.getSurplusMoneyStr())));
-        scheduledLayout.getRateTextView().setText(dtDto.getRate());
-        if (Double.parseDouble(dtDto.getSurplusMoney()) > 0) {
-            scheduledLayout.getStateTextView().setText("抢购中");
+        countTextView.setText(hqDto.getUserCount() + "");
+        totalMoneyTextView.setText(StringUtil.formatAmount(StringUtil.getDouble(hqDto.getTotalSoldMoneyStr(), 0.00)));
 
-            scheduledLayout.setColor(Color.parseColor("#FF001A"));
-
-        } else {
-            scheduledLayout.getStateTextView().setText("已售完");
-
-            scheduledLayout.setColor(Color.parseColor("#999999"));
-        }
-        try {
-            int progress = 100 - (int) (100 * Double.parseDouble(dtDto.getSurplusMoney()) / Double.parseDouble(dtDto.getTotalMoney()));
-            scheduledLayout.setProgress(progress);
-        } catch (Exception e) {
-            e.printStackTrace();
-            scheduledLayout.setProgress(0);
-        }
     }
 
     private void requestMessageCount() {

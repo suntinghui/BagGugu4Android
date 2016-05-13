@@ -335,7 +335,6 @@ public class FirstPayActivity extends BaseActivity implements OnClickListener {
                         transferInfo.setBankName(bankName);
 
                         Intent intent = new Intent(FirstPayActivity.this, PaySuccessActivity.class);
-                        intent.putExtra("TYPE", PaySuccessActivity.TYPE_BANKCARD);
                         intent.putExtra("INFO", transferInfo);
                         FirstPayActivity.this.startActivityForResult(intent, 0);
 

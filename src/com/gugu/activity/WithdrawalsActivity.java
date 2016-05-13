@@ -194,7 +194,7 @@ public class WithdrawalsActivity extends BaseActivity implements OnClickListener
                         String text1 = "<font color=#999999>本月免费提现剩 </font><font color=#1caff6>" + dto.getData().getNoServiceMoneyCount() + "</font> <font color=#999999> 次</font>";
                         surplusCountTextView.setText(Html.fromHtml(text1));
 
-                        tipTextView.setText("提现收取2元手续费，每月前" + dto.getData().getNoServiceMoneyTotal() + "笔免费。\n15:00前提现当日到账，15:00后提现次日到账，节假日顺延。");
+                        tipTextView.setText("提现收取2元手续费，每月前" + dto.getData().getNoServiceMoneyTotal() + "笔免费。\n10000元以内立即到账，10000元以上次日到账，节假日顺延。");
 
                     } else {
                         Toast.makeText(WithdrawalsActivity.this, dto.getMsg(), Toast.LENGTH_SHORT).show();

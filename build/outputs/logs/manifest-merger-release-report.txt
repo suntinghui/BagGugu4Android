@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1:1-1300:12
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1:1-1326:12
 	package
 		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:2:5-33
 		INJECTED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml
@@ -110,7 +110,7 @@ ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:30:5-71
 	android:name
 		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:30:22-68
 application
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:32:5-1298:19
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:32:5-1324:19
 MERGED from [com.android.support:appcompat-v7:23.0.1] /workspace/androidstudio/BagGugu4Android/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.0.1] /workspace/androidstudio/BagGugu4Android/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/AndroidManifest.xml:22:5-20
 	android:label
@@ -1799,219 +1799,255 @@ ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1146:9-1
 		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1148:13-63
 	android:name
 		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1147:13-71
-service#com.speedtong.sdk.ECClientService
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1158:9-1160:40
-	android:exported
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1160:13-37
-	android:name
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1159:13-61
-activity#com.wufriends.gugu.wxapi.WXEntryActivity
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1163:9-1167:75
+activity#com.gugu.activity.RedeemListActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1158:9-1168:20
 	android:screenOrientation
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1166:13-49
-	android:exported
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1165:13-36
-	android:theme
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1167:13-72
-	android:name
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1164:13-50
-receiver#com.gugu.activity.NetChangeReceiver
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1169:9-1173:20
-	android:name
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1169:19-69
-intent-filter#android.net.conn.CONNECTIVITY_CHANGE
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1170:13-1172:29
-action#android.net.conn.CONNECTIVITY_CHANGE
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1171:17-79
-	android:name
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1171:25-76
-activity#com.umeng.socialize.view.ShareActivity
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1180:9-1186:80
-	android:launchMode
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1183:13-44
-	android:noHistory
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1184:13-37
-	android:windowSoftInputMode
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1186:13-68
-	android:configChanges
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1182:13-57
-	android:theme
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1185:13-50
-	android:name
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1181:13-66
-activity#com.tencent.tauth.AuthActivity
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1189:9-1201:20
-	android:launchMode
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1191:13-44
-	android:noHistory
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1192:13-37
-	android:name
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1190:13-58
-intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1193:13-1200:29
-action#android.intent.action.VIEW
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1194:17-69
-	android:name
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1194:25-66
-category#android.intent.category.BROWSABLE
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1197:17-78
-	android:name
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1197:27-75
-data
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1199:17-53
-	android:scheme
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1199:23-50
-activity#com.tencent.connect.common.AssistActivity
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1202:9-1205:84
-	android:screenOrientation
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1204:13-49
-	android:theme
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1205:13-72
-	android:name
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1203:13-69
-activity#com.umeng.fb.ConversationActivity
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1206:9-70
-	android:name
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1206:19-67
-service#com.gugu.activity.GuguPushIntentService
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1208:9-75
-	android:name
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1208:18-72
-service#com.gugu.activity.DownloadSplashImageService
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1210:9-80
-	android:name
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1210:18-77
-meta-data#UMENG_APPKEY
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1212:9-1214:66
-	android:value
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1214:13-53
-	android:name
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1213:13-40
-meta-data#UMENG_CHANNEL
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1215:9-1217:47
-	android:value
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1217:13-34
-	android:name
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1216:13-41
-meta-data#UMENG_MESSAGE_SECRET
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1218:9-1220:74
-	android:value
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1220:13-61
-	android:name
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1219:13-48
-receiver#com.umeng.message.NotificationProxyBroadcastReceiver
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1222:9-1224:49
-	android:exported
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1224:13-37
-	android:name
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1223:13-80
-receiver#com.umeng.message.SystemReceiver
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1225:9-1239:20
-	android:process
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1227:13-36
-	android:name
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1226:13-60
-intent-filter#android.intent.action.BOOT_COMPLETED
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1228:13-1230:29
-action#android.intent.action.BOOT_COMPLETED
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1229:17-79
-	android:name
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1229:25-76
-intent-filter#android.intent.action.PACKAGE_REMOVED
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1234:13-1238:29
-action#android.intent.action.PACKAGE_REMOVED
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1235:17-80
-	android:name
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1235:25-77
-receiver#com.umeng.message.MessageReceiver
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1240:9-1246:20
-	android:process
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1242:13-36
-	android:name
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1241:13-61
-intent-filter#org.agoo.android.intent.action.RECEIVE
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1243:13-1245:29
-action#org.agoo.android.intent.action.RECEIVE
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1244:17-81
-	android:name
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1244:25-78
-receiver#com.umeng.message.ElectionReceiver
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1247:9-1255:20
-	android:process
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1249:13-36
-	android:name
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1248:13-62
-intent-filter#org.agoo.android.intent.action.ELECTION_RESULT_V4+umeng
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1250:13-1254:29
-action#org.agoo.android.intent.action.ELECTION_RESULT_V4
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1251:17-92
-	android:name
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1251:25-89
-category#umeng
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1253:17-50
-	android:name
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1253:27-47
-receiver#com.umeng.message.RegistrationReceiver
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1256:9-1262:20
-	android:exported
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1258:13-37
-	android:name
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1257:13-66
-intent-filter#com.wufriends.gugu.intent.action.COMMAND
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1259:13-1261:29
-action#com.wufriends.gugu.intent.action.COMMAND
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1260:17-83
-	android:name
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1260:25-80
-receiver#com.umeng.message.BootBroadcastReceiver
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1263:9-1267:20
-	android:name
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1263:19-73
-service#com.umeng.message.UmengService
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1269:9-1285:19
-	android:process
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1273:13-36
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1162:13-49
 	android:label
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1272:13-40
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1161:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1163:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1160:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1159:13-64
+intent-filter#android.intent.action.RedeemListActivity+android.intent.category.DEFAULT
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1164:13-1167:29
+action#android.intent.action.RedeemListActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1165:17-83
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1165:25-80
+activity#com.gugu.activity.RedeemDetailActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1170:9-1180:20
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1174:13-49
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1173:13-45
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1175:13-64
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1172:13-63
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1171:13-66
+intent-filter#android.intent.action.RedeemDetailActivity+android.intent.category.DEFAULT
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1176:13-1179:29
+action#android.intent.action.RedeemDetailActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1177:17-85
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1177:25-82
+service#com.speedtong.sdk.ECClientService
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1184:9-1186:40
 	android:exported
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1271:13-36
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1186:13-37
 	android:name
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1270:13-58
-intent-filter#com.wufriends.gugu.intent.action.START
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1274:13-1276:29
-action#com.wufriends.gugu.intent.action.START
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1275:17-81
-	android:name
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1275:25-78
-intent-filter#com.wufriends.gugu.intent.action.COCKROACH
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1277:13-1279:29
-action#com.wufriends.gugu.intent.action.COCKROACH
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1278:17-85
-	android:name
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1278:25-82
-intent-filter#org.agoo.android.intent.action.PING_V4+umeng
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1280:13-1284:29
-action#org.agoo.android.intent.action.PING_V4
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1281:17-81
-	android:name
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1281:25-78
-service#com.umeng.message.UmengIntentService
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1286:9-72
-	android:name
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1286:18-69
-service#com.umeng.message.UmengDownloadResourceService
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1288:9-82
-	android:name
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1288:18-79
-service#com.umeng.update.net.DownloadingService
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1291:9-1293:61
-	android:process
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1293:13-50
-	android:name
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1292:13-67
-activity#com.umeng.update.UpdateDialogActivity
-ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1295:9-1297:84
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1185:13-61
+activity#com.wufriends.gugu.wxapi.WXEntryActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1189:9-1193:75
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1192:13-49
+	android:exported
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1191:13-36
 	android:theme
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1297:13-72
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1193:13-72
 	android:name
-		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1296:13-65
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1190:13-50
+receiver#com.gugu.activity.NetChangeReceiver
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1195:9-1199:20
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1195:19-69
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1196:13-1198:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1197:17-79
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1197:25-76
+activity#com.umeng.socialize.view.ShareActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1206:9-1212:80
+	android:launchMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1209:13-44
+	android:noHistory
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1210:13-37
+	android:windowSoftInputMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1212:13-68
+	android:configChanges
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1208:13-57
+	android:theme
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1211:13-50
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1207:13-66
+activity#com.tencent.tauth.AuthActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1215:9-1227:20
+	android:launchMode
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1217:13-44
+	android:noHistory
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1218:13-37
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1216:13-58
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1219:13-1226:29
+action#android.intent.action.VIEW
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1220:17-69
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1220:25-66
+category#android.intent.category.BROWSABLE
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1223:17-78
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1223:27-75
+data
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1225:17-53
+	android:scheme
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1225:23-50
+activity#com.tencent.connect.common.AssistActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1228:9-1231:84
+	android:screenOrientation
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1230:13-49
+	android:theme
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1231:13-72
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1229:13-69
+activity#com.umeng.fb.ConversationActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1232:9-70
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1232:19-67
+service#com.gugu.activity.GuguPushIntentService
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1234:9-75
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1234:18-72
+service#com.gugu.activity.DownloadSplashImageService
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1236:9-80
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1236:18-77
+meta-data#UMENG_APPKEY
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1238:9-1240:66
+	android:value
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1240:13-53
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1239:13-40
+meta-data#UMENG_CHANNEL
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1241:9-1243:47
+	android:value
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1243:13-34
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1242:13-41
+meta-data#UMENG_MESSAGE_SECRET
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1244:9-1246:74
+	android:value
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1246:13-61
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1245:13-48
+receiver#com.umeng.message.NotificationProxyBroadcastReceiver
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1248:9-1250:49
+	android:exported
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1250:13-37
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1249:13-80
+receiver#com.umeng.message.SystemReceiver
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1251:9-1265:20
+	android:process
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1253:13-36
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1252:13-60
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1254:13-1256:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1255:17-79
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1255:25-76
+intent-filter#android.intent.action.PACKAGE_REMOVED
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1260:13-1264:29
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1261:17-80
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1261:25-77
+receiver#com.umeng.message.MessageReceiver
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1266:9-1272:20
+	android:process
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1268:13-36
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1267:13-61
+intent-filter#org.agoo.android.intent.action.RECEIVE
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1269:13-1271:29
+action#org.agoo.android.intent.action.RECEIVE
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1270:17-81
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1270:25-78
+receiver#com.umeng.message.ElectionReceiver
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1273:9-1281:20
+	android:process
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1275:13-36
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1274:13-62
+intent-filter#org.agoo.android.intent.action.ELECTION_RESULT_V4+umeng
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1276:13-1280:29
+action#org.agoo.android.intent.action.ELECTION_RESULT_V4
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1277:17-92
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1277:25-89
+category#umeng
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1279:17-50
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1279:27-47
+receiver#com.umeng.message.RegistrationReceiver
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1282:9-1288:20
+	android:exported
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1284:13-37
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1283:13-66
+intent-filter#com.wufriends.gugu.intent.action.COMMAND
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1285:13-1287:29
+action#com.wufriends.gugu.intent.action.COMMAND
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1286:17-83
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1286:25-80
+receiver#com.umeng.message.BootBroadcastReceiver
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1289:9-1293:20
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1289:19-73
+service#com.umeng.message.UmengService
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1295:9-1311:19
+	android:process
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1299:13-36
+	android:label
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1298:13-40
+	android:exported
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1297:13-36
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1296:13-58
+intent-filter#com.wufriends.gugu.intent.action.START
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1300:13-1302:29
+action#com.wufriends.gugu.intent.action.START
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1301:17-81
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1301:25-78
+intent-filter#com.wufriends.gugu.intent.action.COCKROACH
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1303:13-1305:29
+action#com.wufriends.gugu.intent.action.COCKROACH
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1304:17-85
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1304:25-82
+intent-filter#org.agoo.android.intent.action.PING_V4+umeng
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1306:13-1310:29
+action#org.agoo.android.intent.action.PING_V4
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1307:17-81
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1307:25-78
+service#com.umeng.message.UmengIntentService
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1312:9-72
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1312:18-69
+service#com.umeng.message.UmengDownloadResourceService
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1314:9-82
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1314:18-79
+service#com.umeng.update.net.DownloadingService
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1317:9-1319:61
+	android:process
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1319:13-50
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1318:13-67
+activity#com.umeng.update.UpdateDialogActivity
+ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1321:9-1323:84
+	android:theme
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1323:13-72
+	android:name
+		ADDED from /workspace/androidstudio/BagGugu4Android/AndroidManifest.xml:1322:13-65

@@ -28,12 +28,23 @@
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:text="转出" />
+
+        <TextView
+            android:id="@+id/redeemListTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingRight="20dip"
+            android:text="赎回列表"
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
     </RelativeLayout>
 
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:background="#56C6F1"
+        android:background="@drawable/bg_transfer_out"
         android:gravity="center_horizontal"
         android:orientation="vertical"
         android:paddingBottom="20dip"
@@ -42,9 +53,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="可转出金额（元）"
+            android:text="可赎回金额"
             android:textColor="#ffffff"
-            android:textSize="13sp" />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/balanceTextView"
@@ -53,7 +64,7 @@
             android:layout_marginTop="20dip"
             android:text="0.00"
             android:textColor="#ffffff"
-            android:textSize="40sp" />
+            android:textSize="55sp" />
 
 
     </LinearLayout>
@@ -111,7 +122,7 @@
         android:background="@drawable/blue_button_selector"
         android:paddingBottom="10dip"
         android:paddingTop="10dip"
-        android:text="确认转出"
+        android:text="确认赎回"
         android:textColor="#ffffff"
         android:textSize="18sp" />
 

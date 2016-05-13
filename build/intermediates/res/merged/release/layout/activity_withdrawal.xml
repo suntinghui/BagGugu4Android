@@ -211,17 +211,30 @@
             android:textColor="#bbbbbb"
             android:textSize="11sp" />
 
-        <TextView
-            android:id="@+id/tipTextView"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dip"
-            android:layout_marginRight="20dip"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="5dip"
             android:layout_marginTop="25dip"
-            android:lineSpacingExtra="5dip"
-            android:text="提现收取2元手续费，每月前2笔免费。\n15:00前提现当日到账，15:00后提现次日到账，节假日顺延。"
-            android:textColor="#666666"
-            android:textSize="12sp" />
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dip"
+                android:src="@drawable/yellow_exclamation" />
+
+            <TextView
+                android:id="@+id/tipTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="5dip"
+                android:text="单日限额50000.00元，每月前2笔免费。\n10000元以内秒到账，10000元以上次日到账，节假日顺延。"
+                android:textColor="#FB9920"
+                android:textSize="12sp" />
+
+        </LinearLayout>
 
         <!-- 登录 -->
 

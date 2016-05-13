@@ -26,9 +26,16 @@ public class HQInfoAppDto implements Serializable {
 	 */
 	private int bank;
 	/**
-	 * 活期可售或定期已完成
+	 * 活期剩余或定期已完成
 	 */
+	@Deprecated
 	private String surplusMoneyStr;
+	/**
+	 * 完成金额
+	 */
+	private String totalSoldMoneyStr;
+
+	private String remark;
 
 	public String getRate() {
 		return rate;
@@ -76,5 +83,21 @@ public class HQInfoAppDto implements Serializable {
 
 	public void setSurplusMoneyStr(String surplusMoneyStr) {
 		this.surplusMoneyStr = surplusMoneyStr;
+	}
+
+	public String getTotalSoldMoneyStr() {
+		return totalSoldMoneyStr;
+	}
+
+	public void setTotalSoldMoneyStr(String totalSoldMoneyStr) {
+		this.totalSoldMoneyStr = totalSoldMoneyStr;
+	}
+
+	public String getRemark() {
+		return remark;
+	}
+
+	public void setRemark(String remark) {
+		this.remark = remark;
 	}
 }

@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.gugu.utils.DateUtil;
 import com.wufriends.gugu.R;
 import com.gugu.client.Constants;
 import com.gugu.model.TransferInfo;
@@ -15,21 +16,11 @@ import com.gugu.utils.ActivityUtil;
 
 public class PaySuccessActivity extends BaseActivity implements OnClickListener {
 
-    private TextView totalMoneyTextView; // 投资总金额
-    private TextView balanceMoneyTextView; // 余额支付金额
-    private TextView balanceTextView; // 投资后账户余额
-    private TextView surplusMoneyTextView; // 银行卡支付金额
-    private TextView bankNameTextView; // 银行名称
-    private TextView tailNumTextView; // 银行尾号
-    private LinearLayout surplusMoneyLayout;
-    private LinearLayout bankNameLayout;
+    private TextView timeTextView; // 投资总金额
+    private TextView moneyTextView; // 余额支付金额
     private Button doneBtn;
 
     private TransferInfo transferInfo = null;
-
-    private int type = TYPE_BALANCE;
-    public static final int TYPE_BALANCE = 0x001; // 余额全额支付
-    public static final int TYPE_BANKCARD = 0x002; // 使用到了银行卡支付
 
     private boolean shouldShake = false;
 
@@ -48,47 +39,24 @@ public class PaySuccessActivity extends BaseActivity implements OnClickListener 
             shouldShake = false;
         }
 
-        type = this.getIntent().getIntExtra("TYPE", TYPE_BALANCE);
-
         transferInfo = (TransferInfo) this.getIntent().getSerializableExtra("INFO");
 
         initView();
 
-        refreshView();
+        timeTextView.setText(DateUtil.getCurrentDateTime());
+        moneyTextView.setText(transferInfo.getTransferMoney());
     }
 
     private void initView() {
         ((Button) this.findViewById(R.id.backBtn)).setOnClickListener(this);
-        ((TextView) this.findViewById(R.id.titleTextView)).setText("支付信息");
+        ((TextView) this.findViewById(R.id.titleTextView)).setText("支付成功");
 
-        totalMoneyTextView = (TextView) this.findViewById(R.id.totalMoneyTextView);
-        balanceMoneyTextView = (TextView) this.findViewById(R.id.balanceMoneyTextView);
-        balanceTextView = (TextView) this.findViewById(R.id.balanceTextView);
-        surplusMoneyTextView = (TextView) this.findViewById(R.id.surplusMoneyTextView);
-        bankNameTextView = (TextView) this.findViewById(R.id.bankNameTextView);
-        tailNumTextView = (TextView) this.findViewById(R.id.tailNumTextView);
-        surplusMoneyLayout = (LinearLayout) this.findViewById(R.id.surplusMoneyLayout);
-        bankNameLayout = (LinearLayout) this.findViewById(R.id.bankNameLayout);
+        timeTextView = (TextView) this.findViewById(R.id.timeTextView);
+        moneyTextView = (TextView) this.findViewById(R.id.moneyTextView);
 
         doneBtn = (Button) this.findViewById(R.id.doneBtn);
         doneBtn.setText((Constants.LuckyDraw && shouldShake) ? "去抽奖！" : "完    成");
         doneBtn.setOnClickListener(this);
-    }
-
-    private void refreshView() {
-        if (type == TYPE_BALANCE) {
-            surplusMoneyLayout.setVisibility(View.GONE);
-            bankNameLayout.setVisibility(View.GONE);
-
-        } else if (type == TYPE_BANKCARD) {
-            surplusMoneyTextView.setText(transferInfo.getSurplusMoneyStr(transferInfo.isUseBalance()));
-            bankNameTextView.setText(transferInfo.getBankName());
-            tailNumTextView.setText(transferInfo.getTailNum());
-        }
-
-        totalMoneyTextView.setText(transferInfo.getTransferMoney());
-        balanceMoneyTextView.setText(transferInfo.getNeedBalanceStr(transferInfo.isUseBalance()));
-        balanceTextView.setText(transferInfo.getBalanceStr(transferInfo.isUseBalance()));
     }
 
     public void onBackPressed() {

@@ -3,23 +3,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/gray_2"
-    android:orientation="vertical" >
+    android:orientation="vertical">
 
     <include
+        layout="@layout/layout_topbar"
         android:layout_width="fill_parent"
-        android:layout_height="50dip"
-        layout="@layout/layout_topbar" />
+        android:layout_height="50dip" />
 
-    <me.everything.android.widget.OverScrollView
+    <ScrollView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:alpha="1.0"
-        android:background="@null" >
+        android:background="@null">
 
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <!-- 检查版本 -->
 
@@ -39,7 +39,7 @@
                 android:paddingBottom="15dip"
                 android:paddingLeft="20dip"
                 android:paddingRight="20dip"
-                android:paddingTop="15dip" >
+                android:paddingTop="15dip">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -82,7 +82,7 @@
                 android:paddingBottom="15dip"
                 android:paddingLeft="20dip"
                 android:paddingRight="20dip"
-                android:paddingTop="15dip" >
+                android:paddingTop="15dip">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -97,7 +97,7 @@
                     android:layout_height="wrap_content"
                     android:src="@drawable/bag_right_arrow" />
             </LinearLayout>
-            
+
             <!-- 我们的故事 -->
 
             <View
@@ -116,7 +116,7 @@
                 android:paddingBottom="15dip"
                 android:paddingLeft="20dip"
                 android:paddingRight="20dip"
-                android:paddingTop="15dip" >
+                android:paddingTop="15dip">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -150,7 +150,7 @@
                 android:paddingBottom="15dip"
                 android:paddingLeft="20dip"
                 android:paddingRight="20dip"
-                android:paddingTop="15dip" >
+                android:paddingTop="15dip">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -171,10 +171,10 @@
                 android:layout_height="1px"
                 android:background="@color/gray" />
 
-            <!-- 常见问题 -->
+            <!-- 联系我们 -->
 
             <LinearLayout
-                android:id="@+id/faqLayout"
+                android:id="@+id/contactLayout"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/bg_white_gray"
@@ -184,16 +184,24 @@
                 android:paddingBottom="15dip"
                 android:paddingLeft="20dip"
                 android:paddingRight="20dip"
-                android:paddingTop="15dip"
-                android:visibility="gone" >
+                android:paddingTop="15dip">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="常见问题"
+                    android:text="联系我们"
                     android:textColor="#666666"
                     android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/telphoneTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dip"
+                    android:text="拨打 010-53944513"
+                    android:textColor="@color/blueme"
+                    android:textSize="12sp" />
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -204,8 +212,93 @@
             <View
                 android:layout_width="fill_parent"
                 android:layout_height="1px"
-                android:background="@color/gray"
-                android:visibility="gone" />
+                android:background="@color/gray" />
+
+            <!-- 公众账号 -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_white_gray"
+                android:descendantFocusability="blocksDescendants"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="15dip"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                android:paddingTop="15dip">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="公众账号"
+                    android:textColor="#666666"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/serviceWechatTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dip"
+                    android:text="搜索 '鼓鼓理财' "
+                    android:textColor="@color/blueme"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bag_right_arrow"
+                    android:visibility="invisible" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@color/gray" />
+
+            <!-- 微信客服 -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_white_gray"
+                android:descendantFocusability="blocksDescendants"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="15dip"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                android:paddingTop="15dip">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="微信客服"
+                    android:textColor="#666666"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/wechatTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dip"
+                    android:text="添加 'gugulicai' "
+                    android:textColor="@color/blueme"
+                    android:textSize="12sp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bag_right_arrow"
+                    android:visibility="invisible" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:background="@color/gray" />
 
             <!-- 登出 -->
 
@@ -223,6 +316,7 @@
                 android:textColor="@color/white"
                 android:textSize="17sp" />
         </LinearLayout>
-    </me.everything.android.widget.OverScrollView>
+
+    </ScrollView>
 
 </LinearLayout>

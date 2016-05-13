@@ -160,6 +160,30 @@
 
         </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:layout_marginTop="15dip"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dip"
+                android:src="@drawable/blue_info_tip" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="3dip"
+                android:text="请查看各银行限额，确定投资金额\n如需更换银行卡，请移步'我-个人中心-银行卡'中设置"
+                android:textColor="#999999"
+                android:textSize="13dip" />
+
+        </LinearLayout>
+
         <Button
             android:id="@+id/investmentBtn"
             android:layout_width="fill_parent"
@@ -170,7 +194,7 @@
             android:background="@drawable/blue_button_selector"
             android:paddingBottom="10dip"
             android:paddingTop="10dip"
-            android:text="立即转入"
+            android:text="确认投资"
             android:textColor="#ffffff"
             android:textSize="16sp" />
 

@@ -32,6 +32,12 @@ public class DateUtil {
 		return df.format(today);
 	}
 
+	public static String getCurrentDateTime(){
+		Date today = new Date();
+		SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+		return df.format(today);
+	}
+
 	public static String getData(long time){
 		Date date = new Date(time);
 		SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
